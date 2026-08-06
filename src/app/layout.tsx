@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Newsreader, Outfit } from "next/font/google";
+import { FirebaseAnalytics } from "@/components/FirebaseAnalytics";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="site-shell min-h-full flex flex-col">
         <JsonLd data={buildWebsiteJsonLd()} />
+        <FirebaseAnalytics />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

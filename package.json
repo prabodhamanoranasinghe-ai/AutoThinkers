@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "date-fns": "^4.4.0",
+    "firebase": "^12.17.1",
     "gray-matter": "^4.0.3",
     "next": "16.3.0",
     "react": "19.2.8",

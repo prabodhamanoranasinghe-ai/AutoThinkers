@@ -37,6 +37,13 @@ jobs:
           # Custom domain serves from site root (no /AutoThinkers prefix)
           NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_SITE_URL: https://autothinkers.com
+          NEXT_PUBLIC_FIREBASE_API_KEY: AIzaSyC2q9twJjJJIZWfYjBTLa9tYr_GoolReho
+          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: autothinkers-d7b0b.firebaseapp.com
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID: autothinkers-d7b0b
+          NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: autothinkers-d7b0b.firebasestorage.app
+          NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "712474165644"
+          NEXT_PUBLIC_FIREBASE_APP_ID: 1:712474165644:web:6e266eb6eebde1333cd6a9
+          NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID: G-QLRDQZ9SDF
         run: bash scripts/build-github-pages.sh
 
       - name: Deploy to gh-pages branch

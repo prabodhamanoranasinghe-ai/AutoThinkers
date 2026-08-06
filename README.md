@@ -49,10 +49,14 @@ npm run dev
 2. **Manual:** add `content/posts/your-slug.md` and push to `main`
 3. Actions rebuilds and updates GitHub Pages
 
-## Categories
+## Traffic / analytics
 
-- AI Tools
-- Tutorials
-- Prompt Craft
-- Automation
-- Workflows
+Firebase Analytics is installed on the site (`measurementId: G-QLRDQZ9SDF`).
+
+View traffic in Firebase Console → **Analytics** → **Dashboard**  
+(or Google Analytics property linked to that Measurement ID).
+
+Add these authorized domains in Firebase Authentication / App settings if prompted:
+- `autothinkers.com`
+- `www.autothinkers.com`
+- `prabodhamanoranasinghe-ai.github.io`
