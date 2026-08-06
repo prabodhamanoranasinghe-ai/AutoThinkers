@@ -1,6 +1,8 @@
+import { Suspense } from "react";
 import { BlogSearch } from "@/components/BlogSearch";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
+import { siteConfig } from "@/lib/site";
 
 export const metadata = buildPageMetadata({
   title: "Journal",
@@ -8,6 +10,14 @@ export const metadata = buildPageMetadata({
     "AI tools & tutorials from AutoThinkers — practical guides on prompts, workflows, and automation.",
   path: "/blog",
 });
+
+function JournalFallback() {
+  return (
+    <div className="mt-10 border-t border-[var(--line)] py-10 text-muted">
+      Loading journal…
+    </div>
+  );
+}
 
 export default function BlogPage() {
   const posts = getAllPosts();
@@ -21,11 +31,14 @@ export default function BlogPage() {
         </h1>
         <p className="mt-4 text-muted">
           Step-by-step guides, tool reviews, and workflow recipes — written to
-          help you ship, learn, and automate with clarity.
+          help you ship, learn, and automate with clarity. Use the category list
+          on the right to browse by topic.
         </p>
       </div>
 
-      <BlogSearch posts={posts} />
+      <Suspense fallback={<JournalFallback />}>
+        <BlogSearch posts={posts} categories={[...siteConfig.categories]} />
+      </Suspense>
     </div>
   );
 }

@@ -63,7 +63,12 @@ export default async function BlogPostPage({
         <div className="absolute inset-0 bg-gradient-to-t from-[rgba(7,18,24,0.92)] via-[rgba(11,31,42,0.55)] to-[rgba(11,31,42,0.25)]" />
         <div className="relative mx-auto flex min-h-[58vh] max-w-4xl flex-col justify-end px-5 pb-12 pt-28 md:px-8">
           <p className="text-xs tracking-[0.18em] text-copper uppercase">
-            {post.category}
+            <Link
+              href={`/blog?category=${encodeURIComponent(post.category)}`}
+              className="hover:text-fog"
+            >
+              {post.category}
+            </Link>
           </p>
           <h1 className="mt-3 font-display text-4xl leading-tight text-fog md:text-5xl">
             {post.title}

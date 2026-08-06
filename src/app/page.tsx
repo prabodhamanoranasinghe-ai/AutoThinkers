@@ -144,12 +144,13 @@ export default function HomePage() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {siteConfig.categories.map((category) => (
-              <span
+              <Link
                 key={category}
-                className="border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75"
+                href={`/blog?category=${encodeURIComponent(category)}`}
+                className="border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 transition hover:border-ink hover:text-ink"
               >
                 {category}
-              </span>
+              </Link>
             ))}
           </div>
         </div>
