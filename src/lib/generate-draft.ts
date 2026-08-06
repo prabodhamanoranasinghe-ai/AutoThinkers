@@ -48,6 +48,14 @@ export type GeneratedDraft = {
 
 function pickCategory(text: string): string {
   const lower = text.toLowerCase();
+  if (
+    lower.includes(" vs ") ||
+    lower.includes("versus") ||
+    lower.includes("compared") ||
+    lower.includes("comparison")
+  ) {
+    return "Comparisons";
+  }
   if (lower.includes("prompt") || lower.includes("chatgpt") || lower.includes("claude")) {
     return "Prompt Craft";
   }

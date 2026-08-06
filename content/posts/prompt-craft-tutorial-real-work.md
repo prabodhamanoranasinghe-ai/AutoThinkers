@@ -175,3 +175,5 @@ Keep exploring on AutoThinkers — these 7 guides pair well with this one:
 - [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
 - [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
 - [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
+- [Best ChatGPT Prompts for Students](/blog/best-chatgpt-prompts-for-students/)
+- [ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?](/blog/chatgpt-vs-claude-vs-gemini/)

@@ -17,6 +17,7 @@ export const siteConfig = {
     "AI Tools",
     "Tutorials",
     "Prompt Craft",
+    "Comparisons",
     "Automation",
     "Workflows",
   ],

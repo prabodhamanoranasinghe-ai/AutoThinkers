@@ -261,3 +261,5 @@ Keep exploring on AutoThinkers — these 7 guides pair well with this one:
 - [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
 - [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
 - [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)
+- [Best ChatGPT Prompts for Students](/blog/best-chatgpt-prompts-for-students/)
+- [ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?](/blog/chatgpt-vs-claude-vs-gemini/)

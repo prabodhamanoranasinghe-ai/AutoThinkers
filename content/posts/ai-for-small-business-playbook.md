@@ -229,3 +229,5 @@ Keep exploring on AutoThinkers — these 7 guides pair well with this one:
 - [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
 - [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)
 - [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
+- [How Small Businesses Can Use ChatGPT](/blog/how-small-businesses-can-use-chatgpt/)
+- [ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?](/blog/chatgpt-vs-claude-vs-gemini/)

@@ -49,6 +49,8 @@ npm run dev
 2. **Manual:** add `content/posts/your-slug.md` and push to `main`
 3. Actions rebuilds and updates GitHub Pages
 
+See `content/editorial-calendar.md` for the full topic queue (2–3 posts/day across Students, Business, ChatGPT, Productivity, Content, Trends, Comparisons, and Pillars).
+
 ### Internal linking (for reach)
 
 Every article should help readers discover the rest of the archive:
