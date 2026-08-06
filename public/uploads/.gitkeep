@@ -1,0 +1,3 @@
+# uploads
+/public/uploads/*
+!/public/uploads/.gitkeep
