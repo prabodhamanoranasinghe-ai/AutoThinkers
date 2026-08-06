@@ -2,54 +2,54 @@
 <rss version="2.0">
   <channel>
     <title>AutoThinkers</title>
-    <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers</link>
+    <link>https://autothinkers.com</link>
     <description>A niche journal for builders, researchers, and solo operators who automate the shallow so they can think deeper.</description>
     <language>en-us</language>
     
     <item>
       <title>The Practical AI Toolkit for Solo Operators (2026)</title>
-      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/practical-ai-toolkit-solo-operators/</link>
-      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/practical-ai-toolkit-solo-operators/</guid>
+      <link>https://autothinkers.com/blog/practical-ai-toolkit-solo-operators/</link>
+      <guid>https://autothinkers.com/blog/practical-ai-toolkit-solo-operators/</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
       <description>A clear starter stack of AI tools for creators and solo operators — what to use, what to skip, and how to set it up in one afternoon.</description>
       <category>AI Tools</category>
     </item>
     <item>
       <title>Prompt Craft Tutorial: Write AI Prompts That Survive Real Work</title>
-      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/prompt-craft-tutorial-real-work/</link>
-      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/prompt-craft-tutorial-real-work/</guid>
+      <link>https://autothinkers.com/blog/prompt-craft-tutorial-real-work/</link>
+      <guid>https://autothinkers.com/blog/prompt-craft-tutorial-real-work/</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>A step-by-step prompt engineering tutorial with copy-paste templates for drafting, research, critique, and repetitive operations.</description>
       <category>Prompt Craft</category>
     </item>
     <item>
       <title>Tutorial: Build an AI Content Workflow in 60 Minutes</title>
-      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/ai-content-workflow-60-minutes/</link>
-      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/ai-content-workflow-60-minutes/</guid>
+      <link>https://autothinkers.com/blog/ai-content-workflow-60-minutes/</link>
+      <guid>https://autothinkers.com/blog/ai-content-workflow-60-minutes/</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description>A complete beginner-friendly workflow to research, draft, edit, and publish content with AI — including prompts, checkpoints, and a one-hour setup plan.</description>
       <category>Tutorials</category>
     </item>
     <item>
       <title>The Attention Budget: Why Deep Thinkers Treat Focus Like Capital</title>
-      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/attention-budget-deep-work/</link>
-      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/attention-budget-deep-work/</guid>
+      <link>https://autothinkers.com/blog/attention-budget-deep-work/</link>
+      <guid>https://autothinkers.com/blog/attention-budget-deep-work/</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description>Most knowledge work fails not from lack of intelligence, but from bankrupt attention. Here is a practical operating system for protecting cognitive capital.</description>
       <category>Deep Work</category>
     </item>
     <item>
       <title>Lattice Thinking: How to Connect Ideas Without Drowning in Notes</title>
-      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/lattice-thinking-idea-networks/</link>
-      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/lattice-thinking-idea-networks/</guid>
+      <link>https://autothinkers.com/blog/lattice-thinking-idea-networks/</link>
+      <guid>https://autothinkers.com/blog/lattice-thinking-idea-networks/</guid>
       <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
       <description>A practical method for building a personal idea lattice — the missing structure between scattered notes and genuine insight.</description>
       <category>Mental Models</category>
     </item>
     <item>
       <title>Designing Personal Systems That Survive Contact With Real Weeks</title>
-      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/personal-systems-that-survive/</link>
-      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/personal-systems-that-survive/</guid>
+      <link>https://autothinkers.com/blog/personal-systems-that-survive/</link>
+      <guid>https://autothinkers.com/blog/personal-systems-that-survive/</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
       <description>Most personal operating systems die by Wednesday. Here is how to design workflows that bend under load instead of shattering.</description>
       <category>Systems Thinking</category>

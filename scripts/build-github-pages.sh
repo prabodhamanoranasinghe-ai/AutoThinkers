@@ -41,11 +41,12 @@ trap cleanup EXIT
 
 export GITHUB_PAGES=true
 export NEXT_PUBLIC_STATIC_EXPORT=true
-export NEXT_PUBLIC_BASE_PATH="${NEXT_PUBLIC_BASE_PATH:-/AutoThinkers}"
-export NEXT_PUBLIC_SITE_URL="${NEXT_PUBLIC_SITE_URL:-https://prabodhamanoranasinghe-ai.github.io/AutoThinkers}"
+export NEXT_PUBLIC_BASE_PATH="${NEXT_PUBLIC_BASE_PATH:-}"
+export NEXT_PUBLIC_SITE_URL="${NEXT_PUBLIC_SITE_URL:-https://autothinkers.com}"
 
 node scripts/generate-rss.mjs
 npm run build
 
 # GitHub Pages should not run Jekyll on underscore paths
 touch out/.nojekyll
+echo "autothinkers.com" > out/CNAME

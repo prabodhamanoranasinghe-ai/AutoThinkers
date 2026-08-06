@@ -2,14 +2,38 @@
 
 Practical **AI tools & tutorials** for creators, founders, and solo operators.
 
-**Live:** https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/
+**Live:** https://autothinkers.com  
+**GitHub Pages fallback:** https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/
 
-## Features
+## Custom domain DNS (Namecheap)
 
-- Public journal focused on AI tools, prompt craft, tutorials, and workflows
-- Markdown essays with SEO (meta, Open Graph, JSON-LD, sitemap, RSS)
-- Static deploy to GitHub Pages (`gh-pages` branch)
-- Owner-only publishing (no public Publish tab)
+The domain must point at GitHub Pages — not Namecheap parking.
+
+1. In Namecheap → **Domain List** → **Manage** → **Domain** tab:
+   - Turn **OFF** Redirect / URL forwarding / parking page
+2. Open **Advanced DNS** and set only these host records:
+
+| Type | Host | Value | TTL |
+| --- | --- | --- | --- |
+| A Record | `@` | `185.199.108.153` | Automatic |
+| A Record | `@` | `185.199.109.153` | Automatic |
+| A Record | `@` | `185.199.110.153` | Automatic |
+| A Record | `@` | `185.199.111.153` | Automatic |
+| CNAME Record | `www` | `prabodhamanoranasinghe-ai.github.io.` | Automatic |
+
+3. Delete any old A/CNAME/URL Redirect records that point to parking or forwarding.
+4. In GitHub → **Settings → Pages → Custom domain**: `autothinkers.com`
+   - Enable **Enforce HTTPS** after DNS checks pass (can take up to 24h, often sooner)
+
+Verify:
+
+```bash
+dig +short autothinkers.com A
+# should return the four 185.199.x.x addresses
+
+dig +short www.autothinkers.com CNAME
+# should return prabodhamanoranasinghe-ai.github.io.
+```
 
 ## Quick start
 

@@ -34,8 +34,9 @@ jobs:
         env:
           GITHUB_PAGES: "true"
           NEXT_PUBLIC_STATIC_EXPORT: "true"
-          NEXT_PUBLIC_BASE_PATH: /AutoThinkers
-          NEXT_PUBLIC_SITE_URL: https://prabodhamanoranasinghe-ai.github.io/AutoThinkers
+          # Custom domain serves from site root (no /AutoThinkers prefix)
+          NEXT_PUBLIC_BASE_PATH: ""
+          NEXT_PUBLIC_SITE_URL: https://autothinkers.com
         run: bash scripts/build-github-pages.sh
 
       - name: Deploy to gh-pages branch
@@ -46,3 +47,4 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
           enable_jekyll: false
+          cname: autothinkers.com

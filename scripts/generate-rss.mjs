@@ -3,8 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://prabodhamanoranasinghe-ai.github.io/AutoThinkers";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://autothinkers.com";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 function absoluteUrl(pathname = "/") {
