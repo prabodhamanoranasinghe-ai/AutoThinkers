@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { PostListItem } from "@/components/PostListItem";
 import { groupPostsByMonth } from "@/lib/dates";
 import type { PostMeta } from "@/lib/posts";
@@ -16,28 +15,40 @@ function normalizeCategory(value: string | null | undefined) {
   return (value || "").trim().toLowerCase();
 }
 
+function readJournalParams() {
+  if (typeof window === "undefined") {
+    return { category: "", q: "" };
+  }
+  const params = new URLSearchParams(window.location.search);
+  return {
+    category: params.get("category") || "",
+    q: params.get("q") || "",
+  };
+}
+
 export function BlogSearch({ posts, categories }: BlogSearchProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  const initialCategory = searchParams.get("category") || "";
-  const initialQuery = searchParams.get("q") || "";
-
-  const [query, setQuery] = useState(initialQuery);
-  const [activeCategory, setActiveCategory] = useState(initialCategory);
-  const [expanded, setExpanded] = useState<Record<string, boolean>>(() =>
-    initialCategory ? { [initialCategory]: true } : {},
-  );
+  const [query, setQuery] = useState("");
+  const [activeCategory, setActiveCategory] = useState("");
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    setQuery(searchParams.get("q") || "");
-    const nextCategory = searchParams.get("category") || "";
-    setActiveCategory(nextCategory);
-    if (nextCategory) {
-      setExpanded((prev) => ({ ...prev, [nextCategory]: true }));
+    const { category, q } = readJournalParams();
+    setQuery(q);
+    setActiveCategory(category);
+    if (category) {
+      setExpanded((prev) => ({ ...prev, [category]: true }));
     }
-  }, [searchParams]);
+    setReady(true);
+
+    const onPopState = () => {
+      const next = readJournalParams();
+      setQuery(next.q);
+      setActiveCategory(next.category);
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
 
   const counts = useMemo(() => {
     const map = new Map<string, number>();
@@ -65,18 +76,16 @@ export function BlogSearch({ posts, categories }: BlogSearchProps) {
     return map;
   }, [posts]);
 
-  const updateUrl = useCallback(
-    (next: { category?: string; q?: string }) => {
-      const params = new URLSearchParams();
-      const category = next.category ?? activeCategory;
-      const q = next.q ?? query;
-      if (category) params.set("category", category);
-      if (q.trim()) params.set("q", q.trim());
-      const qs = params.toString();
-      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-    },
-    [activeCategory, pathname, query, router],
-  );
+  const updateUrl = useCallback((next: { category?: string; q?: string }) => {
+    const category = next.category ?? activeCategory;
+    const q = next.q ?? query;
+    const params = new URLSearchParams();
+    if (category) params.set("category", category);
+    if (q.trim()) params.set("q", q.trim());
+    const qs = params.toString();
+    const path = `${window.location.pathname}${qs ? `?${qs}` : ""}`;
+    window.history.replaceState(null, "", path);
+  }, [activeCategory, query]);
 
   const selectCategory = (category: string, { toggle = true } = {}) => {
     const isSame =
@@ -116,7 +125,6 @@ export function BlogSearch({ posts, categories }: BlogSearchProps) {
   }, [posts, query, activeCategory]);
 
   const monthGroups = useMemo(() => groupPostsByMonth(filtered), [filtered]);
-
   const activeLabel = activeCategory || "All categories";
 
   return (
@@ -149,7 +157,7 @@ export function BlogSearch({ posts, categories }: BlogSearchProps) {
                 Showing
               </p>
               <h2 className="mt-1 font-display text-2xl text-ink md:text-3xl">
-                {activeLabel}
+                {ready ? activeLabel : "All categories"}
               </h2>
               <p className="mt-1 text-sm text-muted">
                 {filtered.length}{" "}

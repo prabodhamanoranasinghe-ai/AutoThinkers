@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import { BlogSearch } from "@/components/BlogSearch";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
@@ -10,14 +9,6 @@ export const metadata = buildPageMetadata({
     "AI tools & tutorials from AutoThinkers — practical guides on prompts, workflows, and automation.",
   path: "/blog",
 });
-
-function JournalFallback() {
-  return (
-    <div className="mt-10 border-t border-[var(--line)] py-10 text-muted">
-      Loading journal…
-    </div>
-  );
-}
 
 export default function BlogPage() {
   const posts = getAllPosts();
@@ -36,9 +27,7 @@ export default function BlogPage() {
         </p>
       </div>
 
-      <Suspense fallback={<JournalFallback />}>
-        <BlogSearch posts={posts} categories={[...siteConfig.categories]} />
-      </Suspense>
+      <BlogSearch posts={posts} categories={[...siteConfig.categories]} />
     </div>
   );
 }
