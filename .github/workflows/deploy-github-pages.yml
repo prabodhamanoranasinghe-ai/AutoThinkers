@@ -11,8 +11,10 @@ permissions:
   id-token: write
 
 concurrency:
+  # Keep separate from GitHub's built-in "pages" deploy group so we do not
+  # cancel in-flight pages-build-deployment runs.
   group: deploy-gh-pages-branch
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:

@@ -48,18 +48,14 @@ node scripts/generate-rss.mjs
 npm run build
 
 # GitHub Pages should not run Jekyll on underscore paths
-touch out/.nojekyll
-# Ensure the marker file is non-empty (some Pages builders are picky)
 echo "Skip Jekyll" > out/.nojekyll
 echo "autothinkers.com" > out/CNAME
 
-# Next.js App Router may emit Flight/RSC "*.txt" files whose names include "$"
-# (e.g. __next.blog.$d$slug.__PAGE__.txt). Legacy GitHub Pages builds can fail
-# on those filenames. HTML routes still work without them.
-find out -type f \( -name '__next*.txt' -o -name '*.txt' \) \
-  ! -name 'robots.txt' \
-  ! -name 'CNAME' \
-  -path '*/__next*' -delete 2>/dev/null || true
-find out -type f -name '__next*.txt' -delete 2>/dev/null || true
-find out -type f -name '*$*.txt' -delete 2>/dev/null || true
+# Next.js App Router emits Flight/RSC files whose names include "$"
+# (e.g. __next.blog.$d$slug.__PAGE__.txt). Legacy GitHub Pages builds fail
+# hard on "$" in filenames ("Page build failed"). Strip them after export —
+# static HTML routes still work without these Flight payloads.
+find out -type f -name '*$*' -print -delete
+find out -type f -name '__next*.txt' -print -delete
+
 
