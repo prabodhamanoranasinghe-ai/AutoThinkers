@@ -1,11 +1,18 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import {
+  generateFromLinkMeta,
+  generateFromTopic,
+  toMarkdownFile,
+  type GenerateMode,
+} from "@/lib/generate-draft";
 import { siteConfig } from "@/lib/site";
 
-type GenerateMode = "topic" | "link";
-
 const defaultCover = "/images/covers/default.svg";
+const isStaticHost =
+  process.env.NEXT_PUBLIC_STATIC_EXPORT === "true" ||
+  Boolean(process.env.NEXT_PUBLIC_BASE_PATH);
 
 export function AdminPublisher() {
   const [mode, setMode] = useState<GenerateMode>("topic");
@@ -26,6 +33,7 @@ export function AdminPublisher() {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [publishedUrl, setPublishedUrl] = useState<string | null>(null);
+  const [apiAvailable, setApiAvailable] = useState(!isStaticHost);
 
   const tagList = useMemo(
     () =>
@@ -45,31 +53,79 @@ export function AdminPublisher() {
     [keywords],
   );
 
+  function applyDraft(data: {
+    title?: string;
+    description?: string;
+    content?: string;
+    category?: string;
+    tags?: string[];
+    keywords?: string[];
+    coverImage?: string;
+    coverAlt?: string;
+    canonical?: string;
+    slug?: string;
+  }) {
+    setTitle(data.title || "");
+    setDescription(data.description || "");
+    setContent(data.content || "");
+    setCategory(data.category || siteConfig.categories[0]);
+    setTags((data.tags || []).join(", "));
+    setKeywords((data.keywords || data.tags || []).join(", "));
+    setCoverAlt(data.coverAlt || data.title || "");
+    if (data.coverImage) setCoverImage(data.coverImage);
+    if (data.canonical) setCanonical(data.canonical);
+    if (data.slug) setSlug(data.slug);
+  }
+
   async function handleGenerate() {
     setBusy(true);
     setError(null);
     setStatus(null);
     setPublishedUrl(null);
     try {
-      const res = await fetch("/api/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ mode, source }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed to generate draft");
+      if (apiAvailable && !isStaticHost) {
+        const res = await fetch("/api/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ mode, source }),
+        });
+        if (res.ok) {
+          const data = await res.json();
+          applyDraft(data);
+          setStatus(
+            "Draft generated. Review SEO fields, add an image, then publish or download.",
+          );
+          return;
+        }
+        if (res.status === 404) {
+          setApiAvailable(false);
+        }
+      }
 
-      setTitle(data.title || "");
-      setDescription(data.description || "");
-      setContent(data.content || "");
-      setCategory(data.category || siteConfig.categories[0]);
-      setTags((data.tags || []).join(", "));
-      setKeywords((data.keywords || data.tags || []).join(", "));
-      setCoverAlt(data.coverAlt || data.title || "");
-      if (data.coverImage) setCoverImage(data.coverImage);
-      if (data.canonical) setCanonical(data.canonical);
-      if (data.slug) setSlug(data.slug);
-      setStatus("Draft generated. Review SEO fields, add an image, then publish.");
+      if (mode === "link") {
+        let parsed: URL;
+        try {
+          parsed = new URL(source.trim());
+        } catch {
+          throw new Error("Provide a valid URL");
+        }
+        applyDraft(
+          generateFromLinkMeta({
+            url: parsed.toString(),
+            title: `Insights from ${parsed.hostname}`,
+            description: `An AutoThinkers essay inspired by ${parsed.toString()}`,
+            text: `Source link provided: ${parsed.toString()}`,
+          }),
+        );
+        setStatus(
+          "Draft generated locally from the link. Edit details, then download the Markdown file for GitHub Pages.",
+        );
+      } else {
+        applyDraft(generateFromTopic(source));
+        setStatus(
+          "Draft generated. Review SEO fields, then download Markdown for GitHub Pages (or publish locally).",
+        );
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : "Generate failed");
     } finally {
@@ -79,6 +135,16 @@ export function AdminPublisher() {
 
   async function handleUpload(file: File | null) {
     if (!file) return;
+    if (isStaticHost || !apiAvailable) {
+      const objectUrl = URL.createObjectURL(file);
+      setCoverImage(objectUrl);
+      if (!coverAlt) setCoverAlt(title || file.name);
+      setStatus(
+        `Previewing ${file.name}. For GitHub Pages, add the image under public/uploads and set coverImage to /uploads/your-file.jpg before committing.`,
+      );
+      return;
+    }
+
     setBusy(true);
     setError(null);
     try {
@@ -98,7 +164,45 @@ export function AdminPublisher() {
     }
   }
 
+  function handleDownloadMarkdown() {
+    setError(null);
+    try {
+      const file = toMarkdownFile({
+        title,
+        description,
+        content,
+        category,
+        tags: tagList,
+        keywords: keywordList.length ? keywordList : tagList,
+        coverImage: coverImage.startsWith("blob:")
+          ? "/images/covers/default.svg"
+          : coverImage,
+        coverAlt: coverAlt || title,
+        canonical: canonical || undefined,
+        slug: slug || undefined,
+        draft,
+      });
+      const blob = new Blob([file.markdown], { type: "text/markdown;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = file.filename;
+      anchor.click();
+      URL.revokeObjectURL(url);
+      setStatus(
+        `Downloaded ${file.filename}. Commit it to content/posts/ and push — GitHub Pages will publish on the next deploy.`,
+      );
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Download failed");
+    }
+  }
+
   async function handlePublish() {
+    if (isStaticHost || !apiAvailable) {
+      handleDownloadMarkdown();
+      return;
+    }
+
     setBusy(true);
     setError(null);
     setStatus(null);
@@ -135,8 +239,21 @@ export function AdminPublisher() {
 
   return (
     <div className="space-y-10">
+      <div className="border border-[var(--line)] bg-[rgba(255,255,255,0.45)] p-5 text-sm leading-relaxed text-ink-soft">
+        <p className="font-medium text-ink">GitHub Pages publishing</p>
+        <p className="mt-2">
+          This site deploys as a static site on GitHub Pages. Generate a draft
+          here, download the Markdown file, commit it to{" "}
+          <code className="text-sea">content/posts/</code>, and push — Actions
+          rebuilds the site automatically. Or send a topic/link in chat and we
+          can commit the post for you.
+        </p>
+      </div>
+
       <section className="border border-[var(--line)] bg-[rgba(255,255,255,0.45)] p-6 md:p-8">
-        <h2 className="font-display text-2xl text-ink">1. Generate from topic or link</h2>
+        <h2 className="font-display text-2xl text-ink">
+          1. Generate from topic or link
+        </h2>
         <p className="mt-2 text-sm text-muted">
           Paste a topic idea or a source URL. AutoThinkers drafts a detailed
           Markdown essay with SEO-ready metadata.
@@ -190,7 +307,11 @@ export function AdminPublisher() {
         <div className="mt-6 grid gap-5">
           <label>
             <span className="field-label">Title</span>
-            <input className="field" value={title} onChange={(e) => setTitle(e.target.value)} />
+            <input
+              className="field"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+            />
           </label>
           <label>
             <span className="field-label">Meta description</span>
@@ -227,7 +348,11 @@ export function AdminPublisher() {
           </div>
           <label>
             <span className="field-label">Tags (comma-separated)</span>
-            <input className="field" value={tags} onChange={(e) => setTags(e.target.value)} />
+            <input
+              className="field"
+              value={tags}
+              onChange={(e) => setTags(e.target.value)}
+            />
           </label>
           <label>
             <span className="field-label">SEO keywords (comma-separated)</span>
@@ -260,8 +385,8 @@ export function AdminPublisher() {
       <section className="border border-[var(--line)] bg-[rgba(255,255,255,0.45)] p-6 md:p-8">
         <h2 className="font-display text-2xl text-ink">3. Cover image</h2>
         <p className="mt-2 text-sm text-muted">
-          Upload a local image or paste an image path/URL. Used for the article
-          hero and Open Graph social preview.
+          Paste an image path/URL, or preview a local file. For GitHub Pages,
+          commit images under <code>public/uploads/</code>.
         </p>
         <div className="mt-5 grid gap-5 md:grid-cols-2">
           <label>
@@ -282,7 +407,7 @@ export function AdminPublisher() {
           </label>
         </div>
         <label className="mt-5 block">
-          <span className="field-label">Upload image</span>
+          <span className="field-label">Upload / preview image</span>
           <input
             className="field"
             type="file"
@@ -302,32 +427,46 @@ export function AdminPublisher() {
 
       <section className="border border-[var(--line)] bg-[rgba(255,255,255,0.45)] p-6 md:p-8">
         <h2 className="font-display text-2xl text-ink">4. Publish</h2>
-        <label className="mt-5 block">
-          <span className="field-label">Publish key</span>
-          <input
-            className="field"
-            type="password"
-            value={publishKey}
-            onChange={(e) => setPublishKey(e.target.value)}
-            placeholder="Set PUBLISH_KEY in .env.local (default: autothinkers)"
-          />
-        </label>
+        {!isStaticHost ? (
+          <label className="mt-5 block">
+            <span className="field-label">Publish key (local server only)</span>
+            <input
+              className="field"
+              type="password"
+              value={publishKey}
+              onChange={(e) => setPublishKey(e.target.value)}
+              placeholder="Set PUBLISH_KEY in .env.local (default: autothinkers)"
+            />
+          </label>
+        ) : null}
         <label className="mt-4 flex items-center gap-2 text-sm text-ink/80">
           <input
             type="checkbox"
             checked={draft}
             onChange={(e) => setDraft(e.target.checked)}
           />
-          Save as draft (hidden in production)
+          Mark as draft in frontmatter
         </label>
-        <button
-          type="button"
-          className="btn-primary mt-5"
-          disabled={busy || !title || !content || !description}
-          onClick={handlePublish}
-        >
-          {busy ? "Publishing…" : draft ? "Save draft" : "Publish essay"}
-        </button>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <button
+            type="button"
+            className="btn-primary"
+            disabled={busy || !title || !content || !description}
+            onClick={handleDownloadMarkdown}
+          >
+            Download Markdown
+          </button>
+          {!isStaticHost ? (
+            <button
+              type="button"
+              className="btn-secondary"
+              disabled={busy || !title || !content || !description}
+              onClick={handlePublish}
+            >
+              {busy ? "Publishing…" : draft ? "Save draft locally" : "Publish locally"}
+            </button>
+          ) : null}
+        </div>
 
         {status ? <p className="mt-4 text-sm text-sea">{status}</p> : null}
         {publishedUrl ? (

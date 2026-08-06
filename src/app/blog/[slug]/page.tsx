@@ -3,11 +3,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { PostListItem } from "@/components/PostListItem";
+import { assetPath } from "@/lib/assets";
 import { formatDate } from "@/lib/dates";
-import { getPostBySlug, getRelatedPosts } from "@/lib/posts";
+import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts";
 import { absoluteUrl, buildArticleJsonLd, buildPageMetadata } from "@/lib/seo";
 
-export const dynamic = "force-dynamic";
+export function generateStaticParams() {
+  return getAllPosts().map((post) => ({ slug: post.slug }));
+}
+
+export const dynamicParams = false;
 
 export async function generateMetadata({
   params,
@@ -48,7 +53,7 @@ export default async function BlogPostPage({
 
       <header className="relative min-h-[58vh] overflow-hidden">
         <Image
-          src={post.coverImage}
+          src={assetPath(post.coverImage)}
           alt={post.coverAlt}
           fill
           priority

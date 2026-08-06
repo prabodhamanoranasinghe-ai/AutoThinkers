@@ -3,9 +3,18 @@ import { siteConfig } from "./site";
 import type { PostMeta } from "./posts";
 
 export function absoluteUrl(path = "/"): string {
-  const base = siteConfig.url.replace(/\/$/, "");
-  if (!path || path === "/") return base;
-  return `${base}${path.startsWith("/") ? path : `/${path}`}`;
+  const configured = siteConfig.url.replace(/\/$/, "");
+  const basePath = siteConfig.basePath.replace(/\/$/, "");
+  // SITE_URL may already include the basePath (GitHub Pages project URL).
+  const root =
+    basePath && configured.endsWith(basePath)
+      ? configured
+      : `${configured}${basePath}`;
+
+  if (!path || path === "/") return root;
+
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return `${root}${normalized}`;
 }
 
 export function buildPageMetadata({
@@ -118,7 +127,6 @@ export function buildArticleJsonLd(post: PostMeta) {
     },
     keywords: (post.keywords || post.tags).join(", "),
     articleSection: post.category,
-    wordCount: undefined,
     inLanguage: "en",
   };
 }
@@ -132,7 +140,7 @@ export function buildWebsiteJsonLd() {
     url: siteConfig.url,
     potentialAction: {
       "@type": "SearchAction",
-      target: `${siteConfig.url}/blog?q={search_term_string}`,
+      target: `${absoluteUrl("/blog")}?q={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
   };

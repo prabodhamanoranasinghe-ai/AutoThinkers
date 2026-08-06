@@ -2,15 +2,17 @@
 
 A niche journal for independent thinkers — deep work, mental models, systems craft, and research practice.
 
+**Live on GitHub Pages:** https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/
+
 ## Features
 
 - Attractive public blog (home, journal, essay pages, about)
 - Detailed Markdown essays with reading time and related posts
-- **Publish studio** at `/admin`: generate a draft from a **topic** or **link**, edit SEO fields, upload a cover image, and publish
+- **Publish studio** at `/admin`: generate a draft from a **topic** or **link**, edit SEO fields, preview images, download Markdown for GitHub Pages
 - SEO: metadata, Open Graph, Twitter cards, JSON-LD, sitemap, robots.txt, canonical URLs, RSS
-- Image uploads to `/public/uploads` (PNG, JPEG, WebP, GIF, SVG)
+- Static export ready for GitHub Pages
 
-## Quick start
+## Quick start (local)
 
 ```bash
 npm install
@@ -20,22 +22,37 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Publish a post
+## Deploy to GitHub Pages
 
-1. Go to `/admin`
-2. Choose **Topic** or **Link**, then generate a draft
-3. Edit title, meta description, keywords, tags, and body
-4. Upload or paste a cover image
-5. Enter the publish key (default `autothinkers`) and publish
+1. In the GitHub repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**
+2. Merge this branch to `main` (or run the **Deploy to GitHub Pages** workflow)
+3. Site URL: `https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/`
 
-Published essays are saved as Markdown files in `content/posts/`.
+Local static build:
+
+```bash
+npm run build:pages
+```
+
+Output is written to `out/`.
+
+### Publishing posts on GitHub Pages
+
+GitHub Pages is static (no server APIs). To publish:
+
+1. Open `/admin` (or ask the agent with a topic/link)
+2. Generate the draft and **Download Markdown**
+3. Put the file in `content/posts/` (and images in `public/uploads/` if needed)
+4. Commit and push to `main` — Actions rebuilds and deploys
 
 ## Environment
 
 | Variable | Purpose |
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Absolute URLs for SEO, sitemap, RSS |
-| `PUBLISH_KEY` | Shared secret for `/admin` publish + upload APIs |
+| `NEXT_PUBLIC_BASE_PATH` | `/AutoThinkers` for project Pages |
+| `PUBLISH_KEY` | Local-only publish API key |
+| `GITHUB_PAGES` | Set by `build:pages` for static export |
 
 ## Content
 

@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "bash scripts/build-github-pages.sh",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:rss": "node scripts/generate-rss.mjs"
   },
   "dependencies": {
     "date-fns": "^4.4.0",

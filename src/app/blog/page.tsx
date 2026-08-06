@@ -1,8 +1,6 @@
-import { PostListItem } from "@/components/PostListItem";
+import { BlogSearch } from "@/components/BlogSearch";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
-
-export const dynamic = "force-dynamic";
 
 export const metadata = buildPageMetadata({
   title: "Journal",
@@ -11,34 +9,8 @@ export const metadata = buildPageMetadata({
   path: "/blog",
 });
 
-export default async function BlogPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string; category?: string }>;
-}) {
-  const params = await searchParams;
-  const query = (params.q || "").trim().toLowerCase();
-  const category = (params.category || "").trim().toLowerCase();
-  let posts = getAllPosts();
-
-  if (category) {
-    posts = posts.filter((p) => p.category.toLowerCase() === category);
-  }
-
-  if (query) {
-    posts = posts.filter((p) => {
-      const haystack = [
-        p.title,
-        p.description,
-        p.category,
-        ...p.tags,
-        ...(p.keywords || []),
-      ]
-        .join(" ")
-        .toLowerCase();
-      return haystack.includes(query);
-    });
-  }
+export default function BlogPage() {
+  const posts = getAllPosts();
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-14 md:px-8 md:py-20">
@@ -53,32 +25,7 @@ export default async function BlogPage({
         </p>
       </div>
 
-      <form className="mt-10 grid gap-3 md:grid-cols-[1fr_auto]" action="/blog">
-        <input
-          className="field"
-          type="search"
-          name="q"
-          defaultValue={params.q || ""}
-          placeholder="Search essays, tags, keywords…"
-          aria-label="Search posts"
-        />
-        <button type="submit" className="btn-primary">
-          Search
-        </button>
-      </form>
-
-      <div className="mt-12">
-        {posts.length === 0 ? (
-          <p className="border-t border-[var(--line)] py-10 text-muted">
-            No essays matched that search. Try another keyword or publish a new
-            piece.
-          </p>
-        ) : (
-          posts.map((post, index) => (
-            <PostListItem key={post.slug} post={post} index={index} />
-          ))
-        )}
-      </div>
+      <BlogSearch posts={posts} />
     </div>
   );
 }

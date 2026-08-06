@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AutoThinkers</title>
+    <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers</link>
+    <description>A niche journal for builders, researchers, and solo operators who automate the shallow so they can think deeper.</description>
+    <language>en-us</language>
+    
+    <item>
+      <title>The Attention Budget: Why Deep Thinkers Treat Focus Like Capital</title>
+      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/attention-budget-deep-work/</link>
+      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/attention-budget-deep-work/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Most knowledge work fails not from lack of intelligence, but from bankrupt attention. Here is a practical operating system for protecting cognitive capital.</description>
+      <category>Deep Work</category>
+    </item>
+    <item>
+      <title>Lattice Thinking: How to Connect Ideas Without Drowning in Notes</title>
+      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/lattice-thinking-idea-networks/</link>
+      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/lattice-thinking-idea-networks/</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+      <description>A practical method for building a personal idea lattice — the missing structure between scattered notes and genuine insight.</description>
+      <category>Mental Models</category>
+    </item>
+    <item>
+      <title>Designing Personal Systems That Survive Contact With Real Weeks</title>
+      <link>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/personal-systems-that-survive/</link>
+      <guid>https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/blog/personal-systems-that-survive/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Most personal operating systems die by Wednesday. Here is how to design workflows that bend under load instead of shattering.</description>
+      <category>Systems Thinking</category>
+    </item>
+  </channel>
+</rss>

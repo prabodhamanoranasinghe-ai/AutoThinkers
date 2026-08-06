@@ -1,12 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PostListItem } from "@/components/PostListItem";
+import { assetPath } from "@/lib/assets";
 import { formatShortDate } from "@/lib/dates";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
-
-export const dynamic = "force-dynamic";
 
 export const metadata = buildPageMetadata({
   path: "/",
@@ -22,7 +21,7 @@ export default function HomePage() {
       <section className="relative min-h-[88vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/covers/default.svg"
+            src={assetPath("/images/covers/default.svg")}
             alt="Atmospheric study space for deep thinking"
             fill
             priority
@@ -81,7 +80,7 @@ export default function HomePage() {
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-ink-soft">
               <Image
-                src={featured.coverImage}
+                src={assetPath(featured.coverImage)}
                 alt={featured.coverAlt}
                 fill
                 className="object-cover transition duration-700 group-hover:scale-[1.03]"
