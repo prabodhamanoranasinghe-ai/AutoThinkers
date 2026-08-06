@@ -19,35 +19,41 @@ export type GeneratedDraft = {
 
 function pickCategory(text: string): string {
   const lower = text.toLowerCase();
-  if (
-    lower.includes("system") ||
-    lower.includes("workflow") ||
-    lower.includes("habit")
-  ) {
-    return "Systems Thinking";
+  if (lower.includes("prompt") || lower.includes("chatgpt") || lower.includes("claude")) {
+    return "Prompt Craft";
   }
   if (
-    lower.includes("model") ||
-    lower.includes("note") ||
-    lower.includes("lattice")
+    lower.includes("workflow") ||
+    lower.includes("pipeline") ||
+    lower.includes("stack")
   ) {
-    return "Mental Models";
+    return "Workflows";
+  }
+  if (
+    lower.includes("tutorial") ||
+    lower.includes("how to") ||
+    lower.includes("step-by-step") ||
+    lower.includes("guide")
+  ) {
+    return "Tutorials";
   }
   if (
     lower.includes("automat") ||
-    lower.includes("tool") ||
-    lower.includes("ai")
+    lower.includes("zapier") ||
+    lower.includes("make.com") ||
+    lower.includes("n8n")
   ) {
     return "Automation";
   }
   if (
-    lower.includes("research") ||
-    lower.includes("interview") ||
-    lower.includes("evidence")
+    lower.includes("tool") ||
+    lower.includes("ai") ||
+    lower.includes("gpt") ||
+    lower.includes("model")
   ) {
-    return "Research Craft";
+    return "AI Tools";
   }
-  return "Deep Work";
+  return "AI Tools";
 }
 
 function buildEssay({
@@ -64,9 +70,9 @@ function buildEssay({
   const slug = slugify(title, { lower: true, strict: true, trim: true });
   const tags = [
     category.toLowerCase().replace(/\s+/g, "-"),
-    "thinking",
-    "operators",
-    "craft",
+    "ai-tools",
+    "tutorials",
+    "workflows",
   ];
 
   const content = `# ${title}
@@ -74,72 +80,55 @@ function buildEssay({
 ${angle}
 
 ${sourceNote ? `> Source context: ${sourceNote}\n` : ""}
-## Why this matters for independent thinkers
+## Who this guide is for
 
-If you own outcomes — as a founder, researcher, writer, or solo operator — shallow advice does not help. You need frameworks that survive messy weeks and still improve judgment.
+Creators, founders, researchers, and solo operators who want AI to save time
+without creating a second job of “prompt babysitting.”
 
-This essay is written for that niche audience. The goal is practical clarity: models you can apply this week, not slogans.
+## What you will build
 
-## The core problem
+By the end of this guide you should leave with:
 
-Most people optimize the wrong layer. They rearrange tools, calendars, and templates while leaving the real bottleneck untouched: **unclear thinking under load**.
+1. A clear use case
+2. A repeatable prompt or workflow
+3. A short checklist you can reuse next week
 
-When priorities blur, every notification feels urgent. When claims are vague, research expands forever. When systems have no failure mode, one bad day breaks the chain.
+## Step-by-step
 
-## A working model
+### 1. Define the outcome
 
-Use this three-layer model:
+Write one sentence:
 
-1. **Question** — What decision gets better if we understand this?
-2. **Claim** — What falsifiable statement are we testing?
-3. **System** — What weekly ritual keeps the claim in contact with reality?
+> When this works, I will have ____.
 
-If you cannot fill those three lines, you are collecting activity, not producing insight.
+### 2. Pick the smallest useful tool stack
 
-### Practical checklist
+Prefer one strong model + one notes app over five overlapping tools.
 
-- Write the decision in one sentence before opening tabs
-- Limit active questions to a small set (3–7)
-- Protect at least two maker blocks each week
-- Review evidence that contradicts your favorite model
-- End the day with a shutdown note: what moved, what is parked
+### 3. Draft the operating prompt
 
-## How to apply this in one week
+Include role, constraints, input format, and output format. Save it where you
+actually work.
 
-### Day 1 — Frame
+### 4. Run a 20-minute test
 
-Write your weekly thesis:
+Use a real task, not a demo. Capture what broke.
 
-> The most valuable thinking I can do this week is ____.
+### 5. Turn the win into a reusable recipe
 
-### Day 2–3 — Contact time
+Document the prompt, the tool, and the failure modes.
 
-Run two uninterrupted blocks on that thesis. Produce an artifact: memo, prototype, interview synthesis, or decision record.
+## Common mistakes
 
-### Day 4 — Stress test
-
-Ask what would falsify your current claim. Gather one piece of disconfirming evidence on purpose.
-
-### Day 5 — Ship a decision
-
-Convert the work into a recommendation someone can act on. Thinking that never becomes a decision is unfinished inventory.
-
-## What to automate
-
-Automate transport and formatting:
-
-- Capture and filing
-- Transcription
-- Reminders for reviews you already trust
-
-Do not automate taste and priority. Those are your competitive advantage.
+- Collecting tools instead of finishing workflows
+- Skipping evaluation criteria
+- Pasting sensitive data into the wrong product
+- Accepting first-draft AI output without editing
 
 ## Closing
 
-${title.replace(/:$/, "")} is less about motivation and more about design. Build a small system around clear questions, protected attention, and honest feedback. Then let the system compound.
-
-If you want the next essay, share a topic or source link with the AutoThinkers
-editor — we will draft, SEO-tag, and prepare it for the journal.
+${title.replace(/:$/, "")} is useful only when it becomes a habit. Start small,
+measure one outcome, and expand only after the workflow survives a busy week.
 `;
 
   return {
@@ -148,8 +137,8 @@ editor — we will draft, SEO-tag, and prepare it for the journal.
     content,
     category,
     tags,
-    keywords: [...tags, "autothinkers", "deep work", slug.replace(/-/g, " ")],
-    coverImage: "/images/covers/default.svg",
+    keywords: [...tags, "autothinkers", "ai tutorials", slug.replace(/-/g, " ")],
+    coverImage: "/images/covers/ai-tools.svg",
     coverAlt: `Cover image for ${title}`,
     slug,
   };

@@ -5,7 +5,7 @@ import { buildPageMetadata } from "@/lib/seo";
 export const metadata = buildPageMetadata({
   title: "Journal",
   description:
-    "Long-form essays on deep work, mental models, systems thinking, and research craft from AutoThinkers.",
+    "AI tools & tutorials from AutoThinkers — practical guides on prompts, workflows, and automation.",
   path: "/blog",
 });
 
@@ -17,11 +17,11 @@ export default function BlogPage() {
       <div className="max-w-2xl">
         <p className="text-xs tracking-[0.18em] text-copper uppercase">Journal</p>
         <h1 className="mt-3 font-display text-4xl text-ink md:text-5xl">
-          Essays for deep operators
+          AI tools & tutorials
         </h1>
         <p className="mt-4 text-muted">
-          Detailed writing on attention, synthesis, and systems that survive
-          real weeks — optimized for readers and search engines.
+          Step-by-step guides, tool reviews, and workflow recipes — written to
+          help you ship, learn, and automate with clarity.
         </p>
       </div>
 

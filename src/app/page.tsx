@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src={assetPath("/images/covers/default.svg")}
-            alt="Atmospheric study space for deep thinking"
+            alt="Atmospheric backdrop for AI tools and tutorials"
             fill
             priority
             className="object-cover"
@@ -41,12 +41,12 @@ export default function HomePage() {
             {siteConfig.tagline}
           </h1>
           <p className="reveal reveal-delay-2 mt-4 max-w-xl text-base leading-relaxed text-fog/80 md:text-lg">
-            Essays on attention, mental models, and resilient systems for people
-            who still do original thinking.
+            Practical tutorials on AI tools, prompts, and workflows — so you can
+            ship faster without drowning in hype.
           </p>
           <div className="reveal reveal-delay-3 mt-8 flex flex-wrap gap-3">
             <Link href="/blog" className="btn-primary bg-fog text-ink hover:bg-white">
-              Read the journal
+              Browse tutorials
             </Link>
             <Link
               href="/about"
@@ -62,14 +62,14 @@ export default function HomePage() {
         <div className="mb-10 flex items-end justify-between gap-4">
           <div>
             <p className="text-xs tracking-[0.18em] text-copper uppercase">
-              Latest thinking
+              Latest guides
             </p>
             <h2 className="mt-2 font-display text-3xl text-ink md:text-4xl">
               From the journal
             </h2>
           </div>
           <Link href="/blog" className="hidden text-sm text-sea md:inline">
-            View all essays →
+            View all tutorials →
           </Link>
         </div>
 
@@ -112,15 +112,14 @@ export default function HomePage() {
       <section className="border-y border-[var(--line)] bg-[rgba(255,255,255,0.35)]">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
           <p className="text-xs tracking-[0.18em] text-copper uppercase">
-            Niche audience
+            What we publish
           </p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl text-ink md:text-4xl">
-            Built for independent minds who automate the shallow.
+            AI tools explained. Tutorials you can finish in one sitting.
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
-            Long-form essays on attention, mental models, and systems that
-            survive real weeks — written for operators who still do original
-            thinking.
+            Tool roundups, step-by-step walkthroughs, prompt patterns, and
+            workflow recipes for people who use AI to get real work done.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {siteConfig.categories.map((category) => (

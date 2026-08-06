@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "AutoThinkers",
-  tagline: "Deep work for independent minds",
+  tagline: "AI tools & tutorials for practical builders",
   description:
-    "A niche journal for builders, researchers, and solo operators who automate the shallow so they can think deeper — mental models, systems craft, and focused writing.",
+    "Hands-on guides to AI tools, prompts, and workflows — tutorials for creators, founders, and solo operators who want results, not hype.",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ||
     "https://prabodhamanoranasinghe-ai.github.io/AutoThinkers",
@@ -16,11 +16,11 @@ export const siteConfig = {
     twitter: "@autothinkers",
   },
   categories: [
-    "Mental Models",
-    "Systems Thinking",
-    "Deep Work",
-    "Research Craft",
+    "AI Tools",
+    "Tutorials",
+    "Prompt Craft",
     "Automation",
+    "Workflows",
   ],
 } as const;
 
