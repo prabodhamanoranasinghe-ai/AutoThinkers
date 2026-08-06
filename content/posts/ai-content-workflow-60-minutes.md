@@ -190,3 +190,15 @@ That is a real AutoThinkers-style tutorial loop.
 - [ ] Prompt versions filed for reuse
 
 Master this hour-long loop and AI becomes a publishing system — not a distraction engine.
+
+## Related Articles
+
+Keep exploring on AutoThinkers — these 7 guides pair well with this one:
+
+- [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
+- [The Practical AI Toolkit for Solo Operators (2026)](/blog/practical-ai-toolkit-solo-operators/)
+- [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)
+- [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)
+- [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
+- [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
+- [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)

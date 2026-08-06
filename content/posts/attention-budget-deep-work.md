@@ -158,3 +158,15 @@ If your focus feels bankrupt, run this reset:
 Deep thinking is not a personality trait. It is a capital allocation problem.
 
 If you protect attention like money, your writing gets sharper, your product decisions get cleaner, and your calendar stops lying to you. That is the niche we write for: people who still believe original thought is a competitive advantage — and are willing to run their days accordingly.
+
+## Related Articles
+
+Keep exploring on AutoThinkers — these 7 guides pair well with this one:
+
+- [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
+- [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
+- [The Practical AI Toolkit for Solo Operators (2026)](/blog/practical-ai-toolkit-solo-operators/)
+- [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
+- [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)
+- [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)

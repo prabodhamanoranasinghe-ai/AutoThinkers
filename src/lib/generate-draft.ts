@@ -1,5 +1,34 @@
 import slugify from "slugify";
+import { getAllPosts } from "@/lib/posts";
 import { siteConfig } from "@/lib/site";
+
+/** Markdown "Related Articles" block for drafts — links 5–10 existing posts for SEO reach. */
+export function buildRelatedArticlesMarkdown(
+  excludeSlug?: string,
+  limit = 8,
+): string {
+  const posts = getAllPosts()
+    .filter((post) => post.slug !== excludeSlug)
+    .slice(0, Math.min(limit, 10));
+
+  if (posts.length === 0) {
+    return `## Related Articles
+
+After you publish more AutoThinkers guides, link 5–10 related posts here (same topic, tools, or audience) so readers — and search engines — can keep exploring the archive.
+`;
+  }
+
+  const links = posts
+    .map((post) => `- [${post.title}](/blog/${post.slug}/)`)
+    .join("\n");
+
+  return `## Related Articles
+
+Keep exploring on AutoThinkers — these ${posts.length} guides pair well with this one:
+
+${links}
+`;
+}
 
 export type GenerateMode = "topic" | "link";
 
@@ -129,6 +158,8 @@ Document the prompt, the tool, and the failure modes.
 
 ${title.replace(/:$/, "")} is useful only when it becomes a habit. Start small,
 measure one outcome, and expand only after the workflow survives a busy week.
+
+${buildRelatedArticlesMarkdown(slug, 8)}
 `;
 
   return {

@@ -93,21 +93,43 @@ export function getPostsByCategory(category: string): PostMeta[] {
   );
 }
 
-export function getRelatedPosts(slug: string, limit = 3): PostMeta[] {
-  const current = getAllPosts().find((p) => p.slug === slug);
+export function getRelatedPosts(slug: string, limit = 8): PostMeta[] {
+  const all = getAllPosts();
+  const current = all.find((p) => p.slug === slug);
   if (!current) return [];
 
-  return getAllPosts()
+  const currentKeywords = new Set(
+    [...current.tags, ...(current.keywords || [])].map((k) => k.toLowerCase()),
+  );
+  const currentWords = new Set(
+    `${current.title} ${current.description} ${current.category}`
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter((w) => w.length > 3),
+  );
+
+  const max = Math.min(limit, Math.max(0, all.length - 1));
+
+  return all
     .filter((p) => p.slug !== slug)
     .map((post) => {
-      const tagOverlap = post.tags.filter((tag) =>
-        current.tags.includes(tag),
+      const postKeywords = [...post.tags, ...(post.keywords || [])].map((k) =>
+        k.toLowerCase(),
+      );
+      const keywordOverlap = postKeywords.filter((k) =>
+        currentKeywords.has(k),
       ).length;
-      const sameCategory = post.category === current.category ? 2 : 0;
-      return { post, score: tagOverlap + sameCategory };
+      const sameCategory = post.category === current.category ? 3 : 0;
+      const titleWords = `${post.title} ${post.description}`
+        .toLowerCase()
+        .split(/[^a-z0-9]+/)
+        .filter((w) => w.length > 3);
+      const wordOverlap = titleWords.filter((w) => currentWords.has(w)).length;
+      const score = keywordOverlap * 2 + sameCategory + wordOverlap;
+      return { post, score };
     })
     .sort((a, b) => b.score - a.score || (a.post.date < b.post.date ? 1 : -1))
-    .slice(0, limit)
+    .slice(0, max)
     .map(({ post }) => post);
 }
 

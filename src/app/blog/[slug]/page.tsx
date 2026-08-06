@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
-import { PostListItem } from "@/components/PostListItem";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import { assetPath } from "@/lib/assets";
 import { formatDate } from "@/lib/dates";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts";
@@ -45,7 +45,7 @@ export default async function BlogPostPage({
   const post = await getPostBySlug(slug);
   if (!post) notFound();
 
-  const related = getRelatedPosts(slug);
+  const related = getRelatedPosts(slug, 8);
 
   return (
     <article>
@@ -110,18 +110,7 @@ export default async function BlogPostPage({
         </div>
       </div>
 
-      {related.length > 0 ? (
-        <section className="border-t border-[var(--line)] bg-[rgba(255,255,255,0.3)]">
-          <div className="mx-auto max-w-6xl px-5 py-14 md:px-8">
-            <h2 className="font-display text-3xl text-ink">Keep reading</h2>
-            <div className="mt-8">
-              {related.map((item, index) => (
-                <PostListItem key={item.slug} post={item} index={index} />
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
+      <RelatedArticles posts={related} currentSlug={slug} />
     </article>
   );
 }

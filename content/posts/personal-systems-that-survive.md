@@ -162,3 +162,15 @@ Systems thinking for individuals is not about becoming a robot. It is about desi
 Build for bad weeks. Keep slack. Measure outputs. Automate transport. Protect judgment.
 
 That is how a personal operating system earns the right to exist past Wednesday.
+
+## Related Articles
+
+Keep exploring on AutoThinkers — these 7 guides pair well with this one:
+
+- [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
+- [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
+- [The Practical AI Toolkit for Solo Operators (2026)](/blog/practical-ai-toolkit-solo-operators/)
+- [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)
+- [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
+- [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)

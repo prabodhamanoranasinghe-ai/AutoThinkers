@@ -169,3 +169,15 @@ Cancel ignored tools. Promote winning prompts into your notes system.
 A practical AI toolkit is boring on purpose: one strong model, one notes home, one transcription habit, and optional media/automation later.
 
 Master that stack before chasing the next launch. When you are ready for the next guide, we will go deeper on prompts, workflows, and tool-by-tool tutorials.
+
+## Related Articles
+
+Keep exploring on AutoThinkers — these 7 guides pair well with this one:
+
+- [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
+- [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)
+- [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)
+- [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
+- [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
+- [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)

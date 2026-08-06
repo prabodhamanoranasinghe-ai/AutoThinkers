@@ -143,3 +143,15 @@ Vanity metrics: total notes, streak days, plugin count.
 Lattice thinking is how niche experts compound. Collectors accumulate. Thinkers connect.
 
 If you want a practical default: start tomorrow with one question, one claim, and one piece of evidence. Link them with a verb. Write a short memo. Repeat weekly until your notes start arguing back — that is when a knowledge system becomes a thinking partner.
+
+## Related Articles
+
+Keep exploring on AutoThinkers — these 7 guides pair well with this one:
+
+- [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
+- [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
+- [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
+- [The Practical AI Toolkit for Solo Operators (2026)](/blog/practical-ai-toolkit-solo-operators/)
+- [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)
+- [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)

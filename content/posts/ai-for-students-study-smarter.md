@@ -60,6 +60,8 @@ Related reads on AutoThinkers:
 - [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
 - [The Practical AI Toolkit for Solo Operators (2026)](/blog/practical-ai-toolkit-solo-operators/)
 - [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
+- [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
 
 ## How to use AI for studying (step-by-step)
 
@@ -247,3 +249,15 @@ Many tools offer free tiers. Start free, then upgrade only if you use it weekly 
 **AI for students** works best as a study system: explain → practice → correct → revise. Use ChatGPT or Claude as a tutor, keep academic integrity intact, and measure progress with quizzes and recall — not with how fast you can generate text.
 
 Want a custom guide next (AI for medical students, engineering students, IELTS/TOEFL, or coding students)? Send your subject and we will publish a tailored tutorial on AutoThinkers.
+
+## Related Articles
+
+Keep exploring on AutoThinkers — these 7 guides pair well with this one:
+
+- [Prompt Craft Tutorial: Write AI Prompts That Survive Real Work](/blog/prompt-craft-tutorial-real-work/)
+- [The Practical AI Toolkit for Solo Operators (2026)](/blog/practical-ai-toolkit-solo-operators/)
+- [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
+- [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
+- [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
+- [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)

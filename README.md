@@ -49,6 +49,14 @@ npm run dev
 2. **Manual:** add `content/posts/your-slug.md` and push to `main`
 3. Actions rebuilds and updates GitHub Pages
 
+### Internal linking (for reach)
+
+Every article should help readers discover the rest of the archive:
+
+- **Automatic:** each post page shows a **Related Articles** block (up to 8 posts) scored by tags, keywords, and category
+- **In the Markdown:** end each post with a `## Related Articles` section linking **5–10** related guides (use trailing-slash paths like `/blog/your-slug/`)
+- **New drafts:** the admin draft generator already appends a Related Articles list from existing posts — keep or curate those links before publish
+
 ## Traffic / analytics
 
 Firebase Analytics is installed on the site (`measurementId: G-QLRDQZ9SDF`).
