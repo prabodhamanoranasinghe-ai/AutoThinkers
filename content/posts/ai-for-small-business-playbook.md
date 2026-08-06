@@ -15,8 +15,8 @@ keywords:
   - how to use AI in small business
   - small business AI automation
   - ChatGPT for small business
-coverImage: "/images/covers/ai-small-business.svg"
-coverAlt: "Illustration of a small storefront connected to AI workflow nodes"
+coverImage: "/images/covers/ai-for-small-business.jpg"
+coverAlt: "AI assisting a small business owner at a modern workspace"
 draft: false
 ---
 
