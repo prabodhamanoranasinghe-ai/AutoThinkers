@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PostListItem } from "@/components/PostListItem";
 import { assetPath } from "@/lib/assets";
-import { formatShortDate } from "@/lib/dates";
+import { formatShortDate, groupPostsByMonth } from "@/lib/dates";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
@@ -14,15 +14,18 @@ export const metadata = buildPageMetadata({
 export default function HomePage() {
   const posts = getAllPosts();
   const featured = posts[0];
-  const rest = posts.slice(1, 4);
+  const monthGroups = groupPostsByMonth(posts);
 
   return (
     <div>
       <section className="relative min-h-[88vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={assetPath("/images/covers/default.svg")}
-            alt="Atmospheric backdrop for AI tools and tutorials"
+            src={assetPath(featured?.coverImage || "/images/covers/default.svg")}
+            alt={
+              featured?.coverAlt ||
+              "Atmospheric backdrop for AI tools and tutorials"
+            }
             fill
             priority
             className="object-cover"
@@ -102,9 +105,27 @@ export default function HomePage() {
           </Link>
         ) : null}
 
-        <div className="mt-6">
-          {rest.map((post, index) => (
-            <PostListItem key={post.slug} post={post} index={index} />
+        <div className="mt-16 space-y-14">
+          {monthGroups.map((group) => (
+            <section key={group.key} aria-labelledby={`month-${group.key}`}>
+              <div className="mb-2 flex items-baseline justify-between gap-4 border-b border-[var(--line)] pb-3">
+                <h3
+                  id={`month-${group.key}`}
+                  className="font-display text-2xl text-ink md:text-3xl"
+                >
+                  {group.label}
+                </h3>
+                <p className="text-sm text-muted">
+                  {group.posts.length}{" "}
+                  {group.posts.length === 1 ? "article" : "articles"}
+                </p>
+              </div>
+              <div>
+                {group.posts.map((post, index) => (
+                  <PostListItem key={post.slug} post={post} index={index} />
+                ))}
+              </div>
+            </section>
           ))}
         </div>
       </section>
