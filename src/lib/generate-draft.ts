@@ -138,7 +138,8 @@ Do not automate taste and priority. Those are your competitive advantage.
 
 ${title.replace(/:$/, "")} is less about motivation and more about design. Build a small system around clear questions, protected attention, and honest feedback. Then let the system compound.
 
-If you want the next essay, bring a topic or a source link to Publish — AutoThinkers will draft, SEO-tag, and prepare it for the journal.
+If you want the next essay, share a topic or source link with the AutoThinkers
+editor — we will draft, SEO-tag, and prepare it for the journal.
 `;
 
   return {

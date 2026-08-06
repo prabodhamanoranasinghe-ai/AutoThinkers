@@ -49,10 +49,10 @@ export default function HomePage() {
               Read the journal
             </Link>
             <Link
-              href="/admin"
+              href="/about"
               className="btn-secondary border-fog/40 text-fog hover:border-fog hover:bg-white/10"
             >
-              Write & publish
+              About AutoThinkers
             </Link>
           </div>
         </div>
@@ -118,8 +118,9 @@ export default function HomePage() {
             Built for independent minds who automate the shallow.
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
-            Give us a topic or a link in Publish — we structure the draft, SEO
-            fields, and cover image so you can ship a detailed essay quickly.
+            Long-form essays on attention, mental models, and systems that
+            survive real weeks — written for operators who still do original
+            thinking.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {siteConfig.categories.map((category) => (

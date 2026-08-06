@@ -9,7 +9,6 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/blog", label: "Journal" },
   { href: "/about", label: "About" },
-  { href: "/admin", label: "Publish" },
 ];
 
 export function Header() {

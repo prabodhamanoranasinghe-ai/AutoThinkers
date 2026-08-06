@@ -6,6 +6,7 @@ cd "$ROOT"
 
 API_DIR="src/app/api"
 RSS_ROUTE="src/app/rss.xml"
+ADMIN_DIR="src/app/admin"
 BACKUP_DIR=".static-export-backup"
 
 rm -rf "$BACKUP_DIR"
@@ -19,12 +20,20 @@ if [ -d "$RSS_ROUTE" ]; then
   mv "$RSS_ROUTE" "$BACKUP_DIR/rss.xml"
 fi
 
+# Keep the draft studio local-only — never ship /admin to public Pages.
+if [ -d "$ADMIN_DIR" ]; then
+  mv "$ADMIN_DIR" "$BACKUP_DIR/admin"
+fi
+
 cleanup() {
   if [ -d "$BACKUP_DIR/api" ]; then
     mv "$BACKUP_DIR/api" "$API_DIR"
   fi
   if [ -d "$BACKUP_DIR/rss.xml" ]; then
     mv "$BACKUP_DIR/rss.xml" "$RSS_ROUTE"
+  fi
+  if [ -d "$BACKUP_DIR/admin" ]; then
+    mv "$BACKUP_DIR/admin" "$ADMIN_DIR"
   fi
   rm -rf "$BACKUP_DIR"
 }

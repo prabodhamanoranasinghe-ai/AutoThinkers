@@ -22,9 +22,6 @@ export function Footer() {
             <Link href="/about" className="block text-ink/80 hover:text-ink">
               About
             </Link>
-            <Link href="/admin" className="block text-ink/80 hover:text-ink">
-              Publish
-            </Link>
           </div>
           <div className="space-y-2">
             <p className="text-xs tracking-[0.16em] text-muted uppercase">

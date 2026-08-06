@@ -2,15 +2,14 @@
 
 A niche journal for independent thinkers — deep work, mental models, systems craft, and research practice.
 
-**Live on GitHub Pages:** https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/
+**Live:** https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/
 
 ## Features
 
 - Attractive public blog (home, journal, essay pages, about)
 - Detailed Markdown essays with reading time and related posts
-- **Publish studio** at `/admin`: generate a draft from a **topic** or **link**, edit SEO fields, preview images, download Markdown for GitHub Pages
 - SEO: metadata, Open Graph, Twitter cards, JSON-LD, sitemap, robots.txt, canonical URLs, RSS
-- Static export ready for GitHub Pages
+- Static export deployed to GitHub Pages (`gh-pages` branch)
 
 ## Quick start (local)
 
@@ -22,11 +21,22 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## How publishing works (recommended)
+
+The public site has **no Publish tab**. Publishing is owner-only:
+
+1. **Best for most posts:** send a topic or link in chat — the agent writes a Markdown essay into `content/posts/` and pushes to `main`
+2. **Manual:** add a `.md` file under `content/posts/` (optional cover under `public/uploads/`), commit, and push
+3. **Local draft studio (optional):** run `npm run dev` and open `/admin` on your machine only — generate/download Markdown, then commit it. `/admin` is **not** included in the GitHub Pages build
+
+Pushing to `main` runs Actions, rebuilds the static site, and updates `gh-pages`.
+
 ## Deploy to GitHub Pages
 
-1. In the GitHub repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**
-2. Merge this branch to `main` (or run the **Deploy to GitHub Pages** workflow)
-3. Site URL: `https://prabodhamanoranasinghe-ai.github.io/AutoThinkers/`
+Pages source should be:
+
+- Branch: `gh-pages`
+- Folder: `/ (root)`
 
 Local static build:
 
@@ -34,24 +44,13 @@ Local static build:
 npm run build:pages
 ```
 
-Output is written to `out/`.
-
-### Publishing posts on GitHub Pages
-
-GitHub Pages is static (no server APIs). To publish:
-
-1. Open `/admin` (or ask the agent with a topic/link)
-2. Generate the draft and **Download Markdown**
-3. Put the file in `content/posts/` (and images in `public/uploads/` if needed)
-4. Commit and push to `main` — Actions rebuilds and deploys
-
 ## Environment
 
 | Variable | Purpose |
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Absolute URLs for SEO, sitemap, RSS |
 | `NEXT_PUBLIC_BASE_PATH` | `/AutoThinkers` for project Pages |
-| `PUBLISH_KEY` | Local-only publish API key |
+| `PUBLISH_KEY` | Local-only publish API key (`npm run dev`) |
 | `GITHUB_PAGES` | Set by `build:pages` for static export |
 
 ## Content

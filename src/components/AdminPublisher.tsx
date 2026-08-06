@@ -240,13 +240,12 @@ export function AdminPublisher() {
   return (
     <div className="space-y-10">
       <div className="border border-[var(--line)] bg-[rgba(255,255,255,0.45)] p-5 text-sm leading-relaxed text-ink-soft">
-        <p className="font-medium text-ink">GitHub Pages publishing</p>
+        <p className="font-medium text-ink">Local owner studio</p>
         <p className="mt-2">
-          This site deploys as a static site on GitHub Pages. Generate a draft
-          here, download the Markdown file, commit it to{" "}
-          <code className="text-sea">content/posts/</code>, and push — Actions
-          rebuilds the site automatically. Or send a topic/link in chat and we
-          can commit the post for you.
+          This page is for you only while running <code>npm run dev</code>. It
+          is excluded from the public GitHub Pages build. Generate a draft,
+          download Markdown, commit it to <code className="text-sea">content/posts/</code>,
+          and push to publish.
         </p>
       </div>
 

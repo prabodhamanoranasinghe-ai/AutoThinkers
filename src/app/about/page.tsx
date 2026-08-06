@@ -27,12 +27,9 @@ export default function AboutPage() {
           hard week — not just inspiring on a quiet Monday.
         </p>
         <p>
-          Want a new essay? Open{" "}
-          <a href="/admin" className="text-sea underline-offset-2 hover:underline">
-            Publish
-          </a>
-          , paste a topic or source link, add a cover image, fill SEO fields,
-          and ship.
+          New essays are written as Markdown in the repository and deployed
+          through GitHub Pages. Readers get a fast static journal; publishing
+          stays an owner-only workflow.
         </p>
       </div>
     </div>
