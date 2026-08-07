@@ -18,7 +18,7 @@ Existing posts already cover parts of this list — skip or refresh those instea
 | 2. AI for Business | AI Tools | Tag `ai-for-business` / `small-business` |
 | 3. ChatGPT | Prompt Craft | Tag `chatgpt` |
 | 4. AI Productivity | Workflows | Tag `productivity` |
-| 5. AI Content Creation | AI Tools | Tag `content-creation` |
+| 5. AI Content Creation | AI Content Creation | Tag `content-creation` |
 | 6. AI Trends | Tutorials | Tag `ai-trends` (thought-leadership guides) |
 | 7. Comparison articles | Comparisons | Tag both tools compared |
 | 8. Evergreen pillar pages | Tutorials | Long guides; link out to cluster posts |
@@ -141,7 +141,7 @@ Status: `todo` · `draft` · `published`
 | --- | --- | --- | --- |
 | 1 | AI Time Management Apps | Workflows | todo |
 | 2 | Canva AI vs Adobe Firefly | Comparisons | todo |
-| 3 | Best AI Image Generators | AI Tools | todo |
+| 3 | Best AI Image Generators | AI Content Creation | published (2026-08-07) — `best-ai-image-generators` |
 
 ### Day 14 — 2026-08-22
 

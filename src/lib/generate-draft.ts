@@ -56,6 +56,17 @@ function pickCategory(text: string): string {
   ) {
     return "Comparisons";
   }
+  if (
+    lower.includes("image generator") ||
+    lower.includes("midjourney") ||
+    lower.includes("dall-e") ||
+    lower.includes("dall·e") ||
+    lower.includes("firefly") ||
+    lower.includes("video generator") ||
+    lower.includes("content creation")
+  ) {
+    return "AI Content Creation";
+  }
   if (lower.includes("prompt") || lower.includes("chatgpt") || lower.includes("claude")) {
     return "Prompt Craft";
   }

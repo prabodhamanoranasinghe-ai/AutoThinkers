@@ -20,6 +20,7 @@ export const siteConfig = {
     "Comparisons",
     "Automation",
     "Workflows",
+    "AI Content Creation",
   ],
 } as const;
 
