@@ -131,7 +131,7 @@ Status: `todo` · `draft` · `published`
 
 | # | Title | Category | Status |
 | --- | --- | --- | --- |
-| 1 | Best AI Productivity Tools | Workflows | todo |
+| 1 | Best AI Productivity Tools | Workflows | published early (2026-08-07) — `best-ai-productivity-tools` |
 | 2 | Midjourney vs DALL·E | Comparisons | todo |
 | 3 | AI Business Ideas You Can Start Today | AI Tools | todo |
 
