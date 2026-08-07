@@ -51,11 +51,11 @@ npm run build
 echo "Skip Jekyll" > out/.nojekyll
 echo "autothinkers.com" > out/CNAME
 
-# Next.js App Router emits Flight/RSC files whose names include "$"
-# (e.g. __next.blog.$d$slug.__PAGE__.txt). Legacy GitHub Pages builds fail
-# hard on "$" in filenames ("Page build failed"). Strip them after export —
-# static HTML routes still work without these Flight payloads.
+# Legacy GitHub Pages builds fail when any published filename contains "$".
+# Next.js App Router emits a few Flight payloads like:
+#   __next.blog.$d$slug.__PAGE__.txt
+# Keep normal __next._tree.txt / __next._full.txt (needed for client nav),
+# but strip only the "$" filenames that break Pages.
 find out -type f -name '*$*' -print -delete
-find out -type f -name '__next*.txt' -print -delete
 
 
