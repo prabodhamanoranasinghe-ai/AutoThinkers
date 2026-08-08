@@ -57,6 +57,15 @@ function pickCategory(text: string): string {
     return "Comparisons";
   }
   if (
+    lower.includes("trend") ||
+    lower.includes("future of ai") ||
+    lower.includes("everyday life") ||
+    lower.includes("myths vs") ||
+    lower.includes("ai jobs")
+  ) {
+    return "AI Trends";
+  }
+  if (
     lower.includes("image generator") ||
     lower.includes("midjourney") ||
     lower.includes("dall-e") ||

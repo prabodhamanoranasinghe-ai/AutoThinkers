@@ -19,7 +19,7 @@ Existing posts already cover parts of this list — skip or refresh those instea
 | 3. ChatGPT | Prompt Craft | Tag `chatgpt` |
 | 4. AI Productivity | Workflows | Tag `productivity` |
 | 5. AI Content Creation | AI Content Creation | Tag `content-creation` |
-| 6. AI Trends | Tutorials | Tag `ai-trends` (thought-leadership guides) |
+| 6. AI Trends | AI Trends | Tag `ai-trends` |
 | 7. Comparison articles | Comparisons | Tag both tools compared |
 | 8. Evergreen pillar pages | Tutorials | Long guides; link out to cluster posts |
 
@@ -187,7 +187,7 @@ Status: `todo` · `draft` · `published`
 
 | # | Title | Category | Status |
 | --- | --- | --- | --- |
-| 1 | The Future of AI in Everyday Life | Tutorials | todo |
+| 1 | The Future of AI in Everyday Life | AI Trends | published (2026-08-08) — `future-of-ai-everyday-life` |
 | 2 | AI Trends to Watch in 2026 | Tutorials | todo |
 | 3 | AI Jobs That Are Growing Fast | Tutorials | todo |
 

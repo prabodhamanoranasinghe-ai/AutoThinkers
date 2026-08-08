@@ -21,6 +21,7 @@ export const siteConfig = {
     "Automation",
     "Workflows",
     "AI Content Creation",
+    "AI Trends",
   ],
 } as const;
 
