@@ -139,7 +139,7 @@ Status: `todo` · `draft` · `published`
 
 | # | Title | Category | Status |
 | --- | --- | --- | --- |
-| 1 | AI Time Management Apps | Workflows | todo |
+| 1 | AI Time Management Apps | Workflows | published (2026-08-09) — `ai-time-management-apps` |
 | 2 | Canva AI vs Adobe Firefly | Comparisons | todo |
 | 3 | Best AI Image Generators | AI Content Creation | published (2026-08-07) — `best-ai-image-generators` |
 

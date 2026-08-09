@@ -155,3 +155,4 @@ Keep exploring on AutoThinkers — these guides pair well with this one:
 - [AI for Small Business: A Practical Playbook That Pays for Itself](/blog/ai-for-small-business-playbook/)
 - [The Attention Budget: Why Deep Thinkers Treat Focus Like Capital](/blog/attention-budget-deep-work/)
 - [Tutorial: Build an AI Content Workflow in 60 Minutes](/blog/ai-content-workflow-60-minutes/)
+- [AI Time Management Apps in 2026 (What Actually Saves Your Week)](/blog/ai-time-management-apps/)
