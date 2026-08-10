@@ -172,7 +172,7 @@ Status: `todo` · `draft` · `published`
 | # | Title | Category | Status |
 | --- | --- | --- | --- |
 | 1 | AI Workflow Automation Guide | Automation | todo |
-| 2 | Microsoft Copilot vs ChatGPT | Comparisons | todo |
+| 2 | Microsoft Copilot vs ChatGPT | Comparisons | published (2026-08-10) — `microsoft-copilot-vs-chatgpt` |
 | 3 | Best Free AI Logo Makers | AI Tools | todo |
 
 ### Day 18 — 2026-08-26

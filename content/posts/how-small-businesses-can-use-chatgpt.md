@@ -191,3 +191,4 @@ Keep exploring on AutoThinkers — these guides pair well with this one:
 - [Best ChatGPT Prompts for Students](/blog/best-chatgpt-prompts-for-students/)
 - [Designing Personal Systems That Survive Contact With Real Weeks](/blog/personal-systems-that-survive/)
 - [AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)](/blog/ai-for-students-study-smarter/)
+- [Microsoft Copilot vs ChatGPT (2026): Which Should You Use?](/blog/microsoft-copilot-vs-chatgpt/)
