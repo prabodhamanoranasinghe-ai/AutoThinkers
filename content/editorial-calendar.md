@@ -157,7 +157,7 @@ Status: `todo` · `draft` · `published`
 | --- | --- | --- | --- |
 | 1 | AI Email Writers | Workflows | todo |
 | 2 | Jasper AI vs Copy.ai | Comparisons | todo |
-| 3 | Best AI Voice Generators | AI Tools | todo |
+| 3 | Best AI Voice Generators | AI Content Creation | published (2026-08-11) — `best-ai-voice-generators` |
 
 ### Day 16 — 2026-08-24
 
