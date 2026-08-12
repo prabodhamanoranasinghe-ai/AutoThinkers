@@ -204,3 +204,4 @@ Keep exploring on AutoThinkers — these 7 guides pair well with this one:
 - [Lattice Thinking: How to Connect Ideas Without Drowning in Notes](/blog/lattice-thinking-idea-networks/)
 - [Best AI Image Generators in 2026 (Practical Creator Guide)](/blog/best-ai-image-generators/)
 - [Best AI Voice Generators in 2026 (Practical Creator Guide)](/blog/best-ai-voice-generators/)
+- [Perplexity vs ChatGPT (2026): Which AI Should You Use?](/blog/perplexity-vs-chatgpt/)

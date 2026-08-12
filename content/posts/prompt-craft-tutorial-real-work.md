@@ -179,3 +179,4 @@ Keep exploring on AutoThinkers — these 7 guides pair well with this one:
 - [ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?](/blog/chatgpt-vs-claude-vs-gemini/)
 - [Best AI Productivity Tools in 2026 (Practical Stack That Saves Hours)](/blog/best-ai-productivity-tools/)
 - [Microsoft Copilot vs ChatGPT (2026): Which Should You Use?](/blog/microsoft-copilot-vs-chatgpt/)
+- [Perplexity vs ChatGPT (2026): Which AI Should You Use?](/blog/perplexity-vs-chatgpt/)

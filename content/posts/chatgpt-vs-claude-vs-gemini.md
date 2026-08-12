@@ -167,3 +167,4 @@ Keep exploring on AutoThinkers — these guides pair well with this comparison:
 - [Best AI Productivity Tools in 2026 (Practical Stack That Saves Hours)](/blog/best-ai-productivity-tools/)
 - [The Future of AI in Everyday Life (2026 Reality Check)](/blog/future-of-ai-everyday-life/)
 - [Microsoft Copilot vs ChatGPT (2026): Which Should You Use?](/blog/microsoft-copilot-vs-chatgpt/)
+- [Perplexity vs ChatGPT (2026): Which AI Should You Use?](/blog/perplexity-vs-chatgpt/)
