@@ -2,10 +2,22 @@ import type { Metadata } from "next";
 import { siteConfig } from "./site";
 import type { PostMeta } from "./posts";
 
+/** Next metadata/image routes that must NOT get a trailing slash on Pages. */
+const NO_TRAILING_SLASH_PATHS = new Set([
+  "/opengraph-image",
+  "/twitter-image",
+  "/icon",
+  "/apple-icon",
+]);
+
 function withTrailingSlash(path: string): string {
   if (!path || path === "/") return "/";
   if (path.includes("?") || path.includes("#") || path.includes(".")) {
     return path;
+  }
+  const bare = path.replace(/\/$/, "") || "/";
+  if (NO_TRAILING_SLASH_PATHS.has(bare)) {
+    return bare;
   }
   return path.endsWith("/") ? path : `${path}/`;
 }
@@ -63,11 +75,13 @@ export function buildPageMetadata({
     : `${siteConfig.name} · ${siteConfig.tagline}`;
   const pageDescription = description || siteConfig.description;
   const url = absoluteUrl(path);
+  // Prefer the .png copy produced by build:github-pages (correct Content-Type
+  // on GitHub Pages). Trailing-slash URLs like /opengraph-image/ 404.
   const ogImage = image
     ? image.startsWith("http")
       ? image
       : absoluteUrl(image)
-    : absoluteUrl("/opengraph-image");
+    : absoluteUrl("/opengraph-image.png");
 
   return {
     title: title || brandedTitle,

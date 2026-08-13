@@ -58,4 +58,10 @@ echo "autothinkers.com" > out/CNAME
 # but strip only the "$" filenames that break Pages.
 find out -type f -name '*$*' -print -delete
 
+# GitHub Pages serves extensionless OG files as application/octet-stream and
+# 404s /opengraph-image/ (trailing slash). Ship a real .png for social crawlers.
+if [ -f out/opengraph-image ]; then
+  cp out/opengraph-image out/opengraph-image.png
+fi
+
 
