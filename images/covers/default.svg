@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Abstract study desk cover">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F2A"/>
+      <stop offset="45%" stop-color="#143447"/>
+      <stop offset="100%" stop-color="#1F4A5C"/>
+    </linearGradient>
+    <radialGradient id="r" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#C4784A" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#C4784A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#r)"/>
+  <g opacity="0.25" stroke="#E8EEF2" stroke-width="1.5" fill="none">
+    <path d="M120 700 C420 520, 680 780, 980 560 S1380 420, 1520 300"/>
+    <path d="M80 220 H520 M80 260 H420"/>
+    <circle cx="1280" cy="640" r="120"/>
+    <circle cx="1280" cy="640" r="70"/>
+  </g>
+  <text x="120" y="160" fill="#E8EEF2" font-family="Georgia, serif" font-size="54" opacity="0.9">AutoThinkers</text>
+</svg>

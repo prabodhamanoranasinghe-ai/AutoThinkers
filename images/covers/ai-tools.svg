@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="AI tools abstract cover">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071820"/>
+      <stop offset="50%" stop-color="#0F3342"/>
+      <stop offset="100%" stop-color="#1A4F5C"/>
+    </linearGradient>
+    <radialGradient id="r" cx="78%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#C4784A" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C4784A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#r)"/>
+  <g fill="none" stroke="#E8EEF2" stroke-opacity="0.28" stroke-width="2">
+    <rect x="220" y="240" width="280" height="180" rx="16"/>
+    <rect x="560" y="300" width="280" height="180" rx="16"/>
+    <rect x="900" y="240" width="280" height="180" rx="16"/>
+    <path d="M500 330 H560 M840 390 H900"/>
+    <circle cx="360" cy="620" r="54"/>
+    <circle cx="520" cy="620" r="54"/>
+    <circle cx="680" cy="620" r="54"/>
+    <path d="M414 620 H466 M574 620 H626"/>
+  </g>
+  <text x="220" y="160" fill="#E8EEF2" font-family="Georgia, serif" font-size="48" opacity="0.92">AI Tools &amp; Tutorials</text>
+</svg>

@@ -1,0 +1,245 @@
+1:"$Sreact.fragment"
+2:I[13434,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js"],"FirebaseAnalytics"]
+3:I[2971,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js"],"Header"]
+4:I[39756,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+5:I[37457,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+6:I[22016,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js","/_next/static/chunks/1_oj3cz2aubcl.js"],""]
+c:I[68027,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js"],"default",1]
+:HL["/_next/static/chunks/3ln1_7r5pyv_c.css","style"]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/5f402bd2d8eef81a-s.p.40bho2kviej2o.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/9433d1a810498265-s.p.1hij5ex6k3v9q.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","blog","perplexity-vs-chatgpt",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","perplexity-vs-chatgpt","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3ln1_7r5pyv_c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/123-nmnpljfqa.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/031ma2rp9w9h_.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"newsreader_f4282723-module__GXFnnW__variable outfit_de7557ea-module__HvPnFW__variable h-full antialiased","children":["$","body",null,{"className":"site-shell min-h-full flex flex-col","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"AutoThinkers\",\"description\":\"Hands-on guides to AI tools, prompts, and workflows — tutorials for creators, founders, and solo operators who want results, not hype.\",\"url\":\"https://autothinkers.com\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://autothinkers.com/blog/?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}"}}],["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-auto border-t border-[var(--line)]","children":[["$","div",null,{"className":"mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-[1.4fr_1fr] md:px-8","children":[["$","div",null,{"children":[["$","p",null,{"className":"font-display text-2xl text-ink","children":"AutoThinkers"}],["$","p",null,{"className":"mt-3 max-w-md text-sm leading-relaxed text-muted","children":"Hands-on guides to AI tools, prompts, and workflows — tutorials for creators, founders, and solo operators who want results, not hype."}]]}],["$","div",null,{"className":"grid grid-cols-2 gap-6 text-sm","children":[["$","div",null,{"className":"space-y-2","children":[["$","p",null,{"className":"text-xs tracking-[0.16em] text-muted uppercase","children":"Explore"}],["$","$L6",null,{"href":"/blog","className":"block text-ink/80 hover:text-ink","children":"Journal"}],["$","$L6",null,{"href":"/about","className":"block text-ink/80 hover:text-ink","children":"About"}]]}],["$","div",null,{"className":"space-y-2","children":[["$","p",null,{"className":"text-xs tracking-[0.16em] text-muted uppercase","children":"SEO & feeds"}],["$","$L6",null,{"href":"/sitemap.xml","className":"block text-ink/80 hover:text-ink","children":"Sitemap"}],["$","$L6",null,{"href":"/robots.txt","className":"block text-ink/80 hover:text-ink","children":"Robots"}],["$","$L6",null,{"href":"/rss.xml","className":"block text-ink/80 hover:text-ink","children":"RSS"}]]}]]}]]}],["$","div",null,{"className":"border-t border-[var(--line)] px-5 py-4 text-center text-xs text-muted md:px-8","children":["© ",2026," ","AutoThinkers",". Built for independent thinkers."]}]]}]]}]}]]}],{"children":["$L7",{"children":["$L8",{"children":["$L9",{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],"$Lb",false]],"m":"$undefined","G":["$c",["$Ld"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qVWJ1FI8UuHZEyKOCJi_-"}
+f:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+10:"$Sreact.suspense"
+12:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+14:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+7:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+8:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Le",[["$","script","script-0",{"src":"/_next/static/chunks/1_oj3cz2aubcl.js","async":true,"nonce":"$undefined"}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}]
+b:["$","$1","h",{"children":[null,["$","$L12",null,{"children":"$L13"}],["$","div",null,{"hidden":true,"children":["$","$L14",null,{"children":["$","$10",null,{"name":"Next.Metadata","children":"$L15"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+d:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3ln1_7r5pyv_c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+16:I[5500,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js","/_next/static/chunks/1_oj3cz2aubcl.js"],"Image"]
+a:C
+17:T23c7,<p><strong>Perplexity vs ChatGPT</strong> is a workflow choice: do you need <strong>answers with sources</strong>, or a <strong>flexible drafting partner</strong>?</p>
+<p>Perplexity shines as an AI-powered research/search layer. ChatGPT shines as a general workbench for writing, reasoning, coding help, and custom workflows. Many operators keep both — but you should pick a default.</p>
+<h2>Quick verdict</h2>
+<table>
+<thead>
+<tr>
+<th>If you mostly…</th>
+<th>Choose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Research topics with links to check</td>
+<td><strong>Perplexity</strong></td>
+</tr>
+<tr>
+<td>Draft, rewrite, brainstorm, code, custom GPTs</td>
+<td><strong>ChatGPT</strong></td>
+</tr>
+<tr>
+<td>Do serious research <em>then</em> write</td>
+<td>Perplexity → ChatGPT (best combo)</td>
+</tr>
+</tbody>
+</table>
+<p>Broader model shopping: <a href="/blog/chatgpt-vs-claude-vs-gemini/">ChatGPT vs Claude vs Gemini</a> · work suite choice: <a href="/blog/microsoft-copilot-vs-chatgpt/">Microsoft Copilot vs ChatGPT</a>.</p>
+<h2>Side-by-side comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Criteria</th>
+<th>Perplexity</th>
+<th>ChatGPT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core job</td>
+<td>AI search / research answers</td>
+<td>General assistant &#x26; workbench</td>
+</tr>
+<tr>
+<td>Citations / sources</td>
+<td>Strong focus</td>
+<td>Available in some modes; not always the default habit</td>
+</tr>
+<tr>
+<td>Long-form drafting</td>
+<td>Good</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>Iterative rewriting</td>
+<td>Good</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>Coding help</td>
+<td>Solid</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>Custom workflows</td>
+<td>Growing</td>
+<td>Strong (GPTs, projects, memory features vary by plan)</td>
+</tr>
+<tr>
+<td>“Blank page” creativity</td>
+<td>Good</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>Best first question type</td>
+<td>“What’s true / what’s current?”</td>
+<td>“Help me make this artifact”</td>
+</tr>
+</tbody>
+</table>
+<p>Plans and features change — re-test with your real tasks every quarter.</p>
+<h2>Perplexity: best for research with a paper trail</h2>
+<p><strong>Choose Perplexity when you want:</strong></p>
+<ul>
+<li>Fast overviews with sources you can open and verify</li>
+<li>Comparison questions (“X vs Y for small teams”)</li>
+<li>A search-like loop: ask → scan citations → refine</li>
+</ul>
+<p><strong>Watch outs:</strong></p>
+<ul>
+<li>Sources can be uneven; <strong>click through</strong> before you trust a claim</li>
+<li>Not always the best home for multi-step creative projects</li>
+<li>Still can miss context or over-weight weak pages</li>
+</ul>
+<p><strong>Best for:</strong> students, analysts, founders doing market/tool research, writers collecting evidence.</p>
+<p><strong>Research prompt pattern:</strong></p>
+<pre><code class="language-text">Question: {{topic}}
+Audience: {{who}}
+Constraints:
+- Separate facts, claims, and unknowns
+- List sources I should verify first
+- Flag anything that looks outdated
+Output:
+1. Short answer
+2. Key points with source links
+3. What to double-check manually
+</code></pre>
+<h2>ChatGPT: best everyday AI workbench</h2>
+<p><strong>Choose ChatGPT when you want:</strong></p>
+<ul>
+<li>Outlines, drafts, rewrites, and critique loops</li>
+<li>Prompt libraries and repeatable workflows</li>
+<li>Coding help, tutoring, and multimodal drafts (varies by plan)</li>
+</ul>
+<p><strong>Watch outs:</strong></p>
+<ul>
+<li>Can sound confident while wrong — especially on niche facts</li>
+<li>“Search-like” answers still need verification</li>
+<li>Easy to skip sources if you don’t ask for them</li>
+</ul>
+<p><strong>Best for:</strong> creators, operators, students writing/studying, anyone building a personal AI habit.<br>
+Prompt craft: <a href="/blog/prompt-craft-tutorial-real-work/">Prompt Craft Tutorial</a>.</p>
+<h2>When Perplexity wins</h2>
+<ul>
+<li>“What happened / what changed recently?”</li>
+<li>“Best tools for X — with sources”</li>
+<li>Literature-style scanning before you write</li>
+<li>Competitive or product research with links to cite</li>
+</ul>
+<h2>When ChatGPT wins</h2>
+<ul>
+<li>Turning notes into a tutorial, email, or script</li>
+<li>Multi-step editing (“shorter, sharper, keep my voice”)</li>
+<li>Study drills and practice quizzes (<a href="/blog/ai-for-students-study-smarter/">AI for Students</a>)</li>
+<li>Building reusable prompts and SOPs</li>
+</ul>
+<h2>The winning combo (15–40 minutes)</h2>
+<ol>
+<li><strong>Perplexity (research):</strong> collect claims + sources (10–15 min)</li>
+<li><strong>Human gate:</strong> open the top 3–5 links; discard weak ones (5–10 min)</li>
+<li><strong>ChatGPT (draft):</strong> write the artifact from <em>your</em> verified notes (15 min)</li>
+</ol>
+<pre><code class="language-text">Using ONLY the notes below, write {{artifact}}.
+Do not invent stats or citations.
+If something is missing, ask up to 3 questions.
+Notes:
+{{paste verified bullets + links}}
+</code></pre>
+<p>This is the same “verify then ship” discipline behind <a href="/blog/ai-content-workflow-60-minutes/">AI Content Workflow in 60 Minutes</a>.</p>
+<h2>Students &#x26; knowledge workers</h2>
+<ul>
+<li>Use <strong>Perplexity</strong> to map a topic and find readings</li>
+<li>Use <strong>ChatGPT</strong> to quiz yourself, outline essays, and explain hard parts</li>
+<li>Never submit unedited AI text as your own work</li>
+</ul>
+<p>More: <a href="/blog/best-chatgpt-prompts-for-students/">Best ChatGPT Prompts for Students</a>.</p>
+<h2>Small businesses</h2>
+<ul>
+<li><strong>Perplexity:</strong> vendor comparisons, policy scanning, market questions</li>
+<li><strong>ChatGPT:</strong> customer replies, SOPs, marketing drafts<br>
+See <a href="/blog/how-small-businesses-can-use-chatgpt/">How Small Businesses Can Use ChatGPT</a>.</li>
+</ul>
+<h2>Pricing mindset</h2>
+<ul>
+<li>Pay for <strong>Perplexity</strong> if research with sources is weekly and free limits block you</li>
+<li>Pay for <strong>ChatGPT</strong> if it’s your daily drafting/thinking home</li>
+<li>Paying for both is reasonable for research-heavy creators — wasteful if one is idle</li>
+</ul>
+<p>Review with your stack habits from <a href="/blog/best-ai-productivity-tools/">Best AI Productivity Tools</a>.</p>
+<h2>20-minute decision test</h2>
+<p>Run both on:</p>
+<ol>
+<li>A <strong>research</strong> question in your niche (score sources + usefulness)</li>
+<li>A <strong>rewrite</strong> of your own rough paragraph</li>
+<li>A <strong>plan</strong> (“turn these notes into a checklist”)</li>
+</ol>
+<p>Keep the winner for each job. Default to one app on your dock.</p>
+<h2>Common mistakes</h2>
+<ol>
+<li>Treating Perplexity citations as automatically correct</li>
+<li>Using ChatGPT as a search engine without verification</li>
+<li>Drafting long posts before gathering sources</li>
+<li>Buying both on day one without a weekly workflow</li>
+<li>Pasting confidential data into the wrong tool/plan</li>
+</ol>
+<h2>Closing checklist</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Default tool chosen (Perplexity or ChatGPT)</li>
+<li class="task-list-item"><input type="checkbox" disabled> Research → verify → draft pipeline tested once</li>
+<li class="task-list-item"><input type="checkbox" disabled> “No invented citations” rule in your prompts</li>
+<li class="task-list-item"><input type="checkbox" disabled> One real weekly use case attached</li>
+<li class="task-list-item"><input type="checkbox" disabled> Second tool optional for the other job</li>
+</ul>
+<p><strong>Bottom line:</strong> Use <strong>Perplexity</strong> to find and frame what’s true. Use <strong>ChatGPT</strong> to turn verified thinking into work products. If you only buy one first, pick based on whether your bottleneck is <strong>research</strong> or <strong>drafting</strong>.</p>
+<h2>Related Articles</h2>
+<p>Keep exploring on AutoThinkers — these guides pair well with this comparison:</p>
+<ul>
+<li><a href="/blog/chatgpt-vs-claude-vs-gemini/">ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?</a></li>
+<li><a href="/blog/microsoft-copilot-vs-chatgpt/">Microsoft Copilot vs ChatGPT (2026): Which Should You Use?</a></li>
+<li><a href="/blog/prompt-craft-tutorial-real-work/">Prompt Craft Tutorial: Write AI Prompts That Survive Real Work</a></li>
+<li><a href="/blog/ai-content-workflow-60-minutes/">Tutorial: Build an AI Content Workflow in 60 Minutes</a></li>
+<li><a href="/blog/best-ai-productivity-tools/">Best AI Productivity Tools in 2026 (Practical Stack That Saves Hours)</a></li>
+<li><a href="/blog/ai-for-students-study-smarter/">AI for Students: How to Study Smarter with ChatGPT, Claude &#x26; Free AI Tools (2026 Guide)</a></li>
+<li><a href="/blog/best-chatgpt-prompts-for-students/">Best ChatGPT Prompts for Students</a></li>
+<li><a href="/blog/how-small-businesses-can-use-chatgpt/">How Small Businesses Can Use ChatGPT</a></li>
+<li><a href="/blog/practical-ai-toolkit-solo-operators/">The Practical AI Toolkit for Solo Operators (2026)</a></li>
+<li><a href="/blog/free-ai-homework-helpers/">Free AI Homework Helpers That Actually Work (2026 Student Guide)</a></li>
+</ul>
+e:["$","article",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Perplexity vs ChatGPT (2026): Which AI Should You Use?\",\"description\":\"Perplexity vs ChatGPT compared for research, citations, writing, and everyday work — when to search with sources, when to draft, and which to pick first.\",\"image\":[\"https://autothinkers.com/images/covers/perplexity-vs-chatgpt.jpg\"],\"datePublished\":\"2026-08-12\",\"dateModified\":\"2026-08-12\",\"author\":{\"@type\":\"Person\",\"name\":\"AutoThinkers Editorial\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"AutoThinkers\",\"url\":\"https://autothinkers.com\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://autothinkers.com/blog/perplexity-vs-chatgpt/\"},\"keywords\":\"Perplexity vs ChatGPT, ChatGPT vs Perplexity, Perplexity AI vs ChatGPT, best AI for research 2026, AI search vs ChatGPT\",\"articleSection\":\"Comparisons\",\"inLanguage\":\"en\"}"}}],["$","header",null,{"className":"relative min-h-[58vh] overflow-hidden","children":[["$","$L16",null,{"src":"/images/covers/perplexity-vs-chatgpt.jpg","alt":"Comparison visual for Perplexity and ChatGPT AI assistants","fill":true,"priority":true,"className":"object-cover","sizes":"100vw"}],["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-[rgba(7,18,24,0.92)] via-[rgba(11,31,42,0.55)] to-[rgba(11,31,42,0.25)]"}],["$","div",null,{"className":"relative mx-auto flex min-h-[58vh] max-w-4xl flex-col justify-end px-5 pb-12 pt-28 md:px-8","children":[["$","p",null,{"className":"text-xs tracking-[0.18em] text-copper uppercase","children":["$","$L6",null,{"href":"/blog?category=Comparisons","className":"hover:text-fog","children":"Comparisons"}]}],["$","h1",null,{"className":"mt-3 font-display text-4xl leading-tight text-fog md:text-5xl","children":"Perplexity vs ChatGPT (2026): Which AI Should You Use?"}],["$","p",null,{"className":"mt-4 max-w-2xl text-base text-fog/80 md:text-lg","children":"Perplexity vs ChatGPT compared for research, citations, writing, and everyday work — when to search with sources, when to draft, and which to pick first."}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-fog/70","children":[["$","span",null,{"children":"AutoThinkers Editorial"}],["$","time",null,{"dateTime":"2026-08-12","children":"August 12, 2026"}],["$","span",null,{"children":"6 min read"}]]}]]}]]}],["$","div",null,{"className":"mx-auto max-w-3xl px-5 py-12 md:px-8 md:py-16","children":[["$","div",null,{"className":"prose prose-blog prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$17"}}],"$L18"]}],"$L19"]}]
+18:["$","div",null,{"className":"mt-12 border-t border-[var(--line)] pt-8","children":[["$","p",null,{"className":"text-xs tracking-[0.16em] text-muted uppercase","children":"Tags"}],["$","div",null,{"className":"mt-3 flex flex-wrap gap-3","children":[["$","$L6","comparisons",{"href":"/blog?q=comparisons","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","comparisons"]}],["$","$L6","chatgpt",{"href":"/blog?q=chatgpt","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","chatgpt"]}],["$","$L6","perplexity",{"href":"/blog?q=perplexity","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","perplexity"]}],["$","$L6","research",{"href":"/blog?q=research","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","research"]}]]}],["$","p",null,{"className":"mt-6 text-sm text-muted","children":["Canonical URL:"," ",["$","a",null,{"href":"https://autothinkers.com/blog/perplexity-vs-chatgpt/","className":"text-sea","children":"https://autothinkers.com/blog/perplexity-vs-chatgpt/"}]]}]]}]
+1a:T5cb,{"@context":"https://schema.org","@type":"ItemList","name":"Related Articles","itemListElement":[{"@type":"ListItem","position":1,"url":"https://autothinkers.com/blog/microsoft-copilot-vs-chatgpt/","name":"Microsoft Copilot vs ChatGPT (2026): Which Should You Use?"},{"@type":"ListItem","position":2,"url":"https://autothinkers.com/blog/chatgpt-vs-claude-vs-gemini/","name":"ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?"},{"@type":"ListItem","position":3,"url":"https://autothinkers.com/blog/how-small-businesses-can-use-chatgpt/","name":"How Small Businesses Can Use ChatGPT (Practical 2026 Guide)"},{"@type":"ListItem","position":4,"url":"https://autothinkers.com/blog/best-ai-voice-generators/","name":"Best AI Voice Generators in 2026 (Practical Creator Guide)"},{"@type":"ListItem","position":5,"url":"https://autothinkers.com/blog/best-chatgpt-prompts-for-students/","name":"Best ChatGPT Prompts for Students (2026 Copy-Paste Library)"},{"@type":"ListItem","position":6,"url":"https://autothinkers.com/blog/best-ai-image-generators/","name":"Best AI Image Generators in 2026 (Practical Creator Guide)"},{"@type":"ListItem","position":7,"url":"https://autothinkers.com/blog/best-ai-productivity-tools/","name":"Best AI Productivity Tools in 2026 (Practical Stack That Saves Hours)"},{"@type":"ListItem","position":8,"url":"https://autothinkers.com/blog/prompt-craft-tutorial-real-work/","name":"Prompt Craft Tutorial: Write AI Prompts That Survive Real Work"}]}19:["$","section",null,{"className":"border-t border-[var(--line)] bg-[rgba(255,255,255,0.3)]","aria-labelledby":"related-articles-heading","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$1a"}}],["$","div",null,{"className":"mx-auto max-w-6xl px-5 py-14 md:px-8","children":[["$","p",null,{"className":"text-xs tracking-[0.18em] text-copper uppercase","children":"Keep exploring"}],["$","h2",null,{"id":"related-articles-heading","className":"mt-2 font-display text-3xl text-ink md:text-4xl","children":"Related Articles"}],["$","p",null,{"className":"mt-3 max-w-2xl text-muted","children":["Continue with ",8," closely related AutoThinkers guides — more tutorials to deepen your AI workflow."]}],["$","div",null,{"className":"mt-8","children":[["$","article","perplexity-vs-chatgpt-microsoft-copilot-vs-chatgpt",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0s"},"children":["$","$L6",null,{"href":"/blog/microsoft-copilot-vs-chatgpt","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/microsoft-copilot-vs-chatgpt.jpg","alt":"Side-by-side comparison visual for Microsoft Copilot and ChatGPT","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Comparisons"}],["$","time",null,{"dateTime":"2026-08-10","children":"Aug 10, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Microsoft Copilot vs ChatGPT (2026): Which Should You Use?"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Microsoft Copilot vs ChatGPT compared for work, Office apps, writing, and everyday tasks — strengths, weaknesses, pricing mindset, and which to pick first."}],"$L1b"]}]]}]}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22"]}]]}]]}]
+1b:["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","comparisons",{"children":["#","comparisons"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","microsoft-copilot",{"children":["#","microsoft-copilot"]}],["$","span","productivity",{"children":["#","productivity"]}]]}]
+1c:["$","article","perplexity-vs-chatgpt-chatgpt-vs-claude-vs-gemini",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.06s"},"children":["$","$L6",null,{"href":"/blog/chatgpt-vs-claude-vs-gemini","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/ai-comparisons.svg","alt":"Two panels comparing AI assistants side by side","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Comparisons"}],["$","time",null,{"dateTime":"2026-08-09","children":"Aug 9, 2026"}],["$","p",null,{"children":"5 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"ChatGPT vs Claude vs Gemini: Which AI Should You Use in 2026?"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"A clear ChatGPT vs Claude vs Gemini comparison for work, study, and content — strengths, weaknesses, pricing mindset, and which model to pick first."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","comparisons",{"children":["#","comparisons"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","claude",{"children":["#","claude"]}],["$","span","gemini",{"children":["#","gemini"]}]]}]]}]]}]}]
+1d:["$","article","perplexity-vs-chatgpt-how-small-businesses-can-use-chatgpt",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.12s"},"children":["$","$L6",null,{"href":"/blog/how-small-businesses-can-use-chatgpt","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/ai-for-small-business.jpg","alt":"AI assisting a small business owner at a modern workspace","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"AI Tools"}],["$","time",null,{"dateTime":"2026-08-09","children":"Aug 9, 2026"}],["$","p",null,{"children":"5 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"How Small Businesses Can Use ChatGPT (Practical 2026 Guide)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"How small businesses can use ChatGPT for customer replies, marketing drafts, SOPs, and admin work — with copy-paste prompts and a safe weekly workflow."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","small-business",{"children":["#","small-business"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","ai-for-business",{"children":["#","ai-for-business"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]]}]]}]}]
+1e:["$","article","perplexity-vs-chatgpt-best-ai-voice-generators",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.18s"},"children":["$","$L6",null,{"href":"/blog/best-ai-voice-generators","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/best-ai-voice-generators.jpg","alt":"Abstract sound waves and microphone representing AI voice generation","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"AI Content Creation"}],["$","time",null,{"dateTime":"2026-08-11","children":"Aug 11, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Best AI Voice Generators in 2026 (Practical Creator Guide)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Compare the best AI voice generators in 2026 for YouTube, podcasts, courses, and product demos — quality, cloning ethics, pricing mindset, and which tool to pick first."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","content-creation",{"children":["#","content-creation"]}],["$","span","ai-voice",{"children":["#","ai-voice"]}],["$","span","text-to-speech",{"children":["#","text-to-speech"]}],["$","span","ai-tools",{"children":["#","ai-tools"]}]]}]]}]]}]}]
+1f:["$","article","perplexity-vs-chatgpt-best-chatgpt-prompts-for-students",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.24s"},"children":["$","$L6",null,{"href":"/blog/best-chatgpt-prompts-for-students","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/prompt-craft.svg","alt":"Structured prompt lines for student study workflows","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Prompt Craft"}],["$","time",null,{"dateTime":"2026-08-09","children":"Aug 9, 2026"}],["$","p",null,{"children":"5 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Best ChatGPT Prompts for Students (2026 Copy-Paste Library)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"The best ChatGPT prompts for students — study plans, note summaries, practice quizzes, essay outlines, and exam prep templates you can copy today."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","ai-for-students",{"children":["#","ai-for-students"]}],["$","span","prompts",{"children":["#","prompts"]}],["$","span","study-tools",{"children":["#","study-tools"]}]]}]]}]]}]}]
+20:["$","article","perplexity-vs-chatgpt-best-ai-image-generators",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.3s"},"children":["$","$L6",null,{"href":"/blog/best-ai-image-generators","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/best-ai-image-generators.jpg","alt":"Colorful AI-generated style collage representing modern image generators","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"AI Content Creation"}],["$","time",null,{"dateTime":"2026-08-07","children":"Aug 7, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Best AI Image Generators in 2026 (Practical Creator Guide)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Compare the best AI image generators in 2026 — Midjourney, DALL·E, Firefly, Ideogram, and free options — plus prompts, use cases, and which tool to pick first."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","content-creation",{"children":["#","content-creation"]}],["$","span","ai-image",{"children":["#","ai-image"]}],["$","span","midjourney",{"children":["#","midjourney"]}],["$","span","ai-tools",{"children":["#","ai-tools"]}]]}]]}]]}]}]
+21:["$","article","perplexity-vs-chatgpt-best-ai-productivity-tools",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.36s"},"children":["$","$L6",null,{"href":"/blog/best-ai-productivity-tools","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/best-ai-productivity-tools.jpg","alt":"Person working at a laptop with AI productivity tools and charts on screen","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Workflows"}],["$","time",null,{"dateTime":"2026-08-07","children":"Aug 7, 2026"}],["$","p",null,{"children":"7 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Best AI Productivity Tools in 2026 (Practical Stack That Saves Hours)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"The best AI productivity tools for 2026 — writing, meetings, email, notes, and automation — plus a simple stack you can set up in one afternoon."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","productivity",{"children":["#","productivity"]}],["$","span","ai-tools",{"children":["#","ai-tools"]}],["$","span","workflows",{"children":["#","workflows"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}]]}]]}]]}]}]
+22:["$","article","perplexity-vs-chatgpt-prompt-craft-tutorial-real-work",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.36s"},"children":["$","$L6",null,{"href":"/blog/prompt-craft-tutorial-real-work","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/prompt-craft.svg","alt":"Abstract lines suggesting structured prompt flows","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Prompt Craft"}],["$","time",null,{"dateTime":"2026-08-05","children":"Aug 5, 2026"}],["$","p",null,{"children":"4 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Prompt Craft Tutorial: Write AI Prompts That Survive Real Work"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"A step-by-step prompt engineering tutorial with copy-paste templates for drafting, research, critique, and repetitive operations."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","prompts",{"children":["#","prompts"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","claude",{"children":["#","claude"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]]}]]}]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+23:I[27201,["/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+11:null
+15:[["$","title","0",{"children":"Perplexity vs ChatGPT (2026): Which AI Should You Use? · AutoThinkers"}],["$","meta","1",{"name":"description","content":"Perplexity vs ChatGPT compared for research, citations, writing, and everyday work — when to search with sources, when to draft, and which to pick first."}],["$","meta","2",{"name":"author","content":"AutoThinkers Editorial"}],["$","meta","3",{"name":"keywords","content":"Perplexity vs ChatGPT,ChatGPT vs Perplexity,Perplexity AI vs ChatGPT,best AI for research 2026,AI search vs ChatGPT"}],["$","meta","4",{"name":"creator","content":"AutoThinkers Editorial"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","7",{"rel":"canonical","href":"https://autothinkers.com/blog/perplexity-vs-chatgpt/"}],["$","meta","8",{"property":"og:title","content":"Perplexity vs ChatGPT (2026): Which AI Should You Use? · AutoThinkers"}],["$","meta","9",{"property":"og:description","content":"Perplexity vs ChatGPT compared for research, citations, writing, and everyday work — when to search with sources, when to draft, and which to pick first."}],["$","meta","10",{"property":"og:url","content":"https://autothinkers.com/blog/perplexity-vs-chatgpt/"}],["$","meta","11",{"property":"og:site_name","content":"AutoThinkers"}],["$","meta","12",{"property":"og:locale","content":"en_US"}],["$","meta","13",{"property":"og:image","content":"https://autothinkers.com/images/covers/perplexity-vs-chatgpt.jpg"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"Perplexity vs ChatGPT (2026): Which AI Should You Use?"}],["$","meta","17",{"property":"og:type","content":"article"}],["$","meta","18",{"property":"article:published_time","content":"2026-08-12"}],["$","meta","19",{"property":"article:modified_time","content":"2026-08-12"}],["$","meta","20",{"property":"article:author","content":"AutoThinkers Editorial"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:creator","content":"@autothinkers"}],["$","meta","23",{"name":"twitter:title","content":"Perplexity vs ChatGPT (2026): Which AI Should You Use? · AutoThinkers"}],["$","meta","24",{"name":"twitter:description","content":"Perplexity vs ChatGPT compared for research, citations, writing, and everyday work — when to search with sources, when to draft, and which to pick first."}],["$","meta","25",{"name":"twitter:image","content":"https://autothinkers.com/images/covers/perplexity-vs-chatgpt.jpg"}],["$","link","26",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L23","27",{}]]

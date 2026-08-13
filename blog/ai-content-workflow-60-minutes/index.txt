@@ -1,0 +1,225 @@
+1:"$Sreact.fragment"
+2:I[13434,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js"],"FirebaseAnalytics"]
+3:I[2971,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js"],"Header"]
+4:I[39756,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+5:I[37457,["/_next/static/chunks/3fntmmi971322.js"],"default"]
+6:I[22016,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js","/_next/static/chunks/1_oj3cz2aubcl.js"],""]
+c:I[68027,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js"],"default",1]
+:HL["/_next/static/chunks/3ln1_7r5pyv_c.css","style"]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/5f402bd2d8eef81a-s.p.40bho2kviej2o.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/9433d1a810498265-s.p.1hij5ex6k3v9q.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+a:X
+0:{"P":null,"c":["","blog","ai-content-workflow-60-minutes",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","ai-content-workflow-60-minutes","d",[]],{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3ln1_7r5pyv_c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/123-nmnpljfqa.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/031ma2rp9w9h_.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"newsreader_f4282723-module__GXFnnW__variable outfit_de7557ea-module__HvPnFW__variable h-full antialiased","children":["$","body",null,{"className":"site-shell min-h-full flex flex-col","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"AutoThinkers\",\"description\":\"Hands-on guides to AI tools, prompts, and workflows — tutorials for creators, founders, and solo operators who want results, not hype.\",\"url\":\"https://autothinkers.com\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://autothinkers.com/blog/?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}}"}}],["$","$L2",null,{}],["$","$L3",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-auto border-t border-[var(--line)]","children":[["$","div",null,{"className":"mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-[1.4fr_1fr] md:px-8","children":[["$","div",null,{"children":[["$","p",null,{"className":"font-display text-2xl text-ink","children":"AutoThinkers"}],["$","p",null,{"className":"mt-3 max-w-md text-sm leading-relaxed text-muted","children":"Hands-on guides to AI tools, prompts, and workflows — tutorials for creators, founders, and solo operators who want results, not hype."}]]}],["$","div",null,{"className":"grid grid-cols-2 gap-6 text-sm","children":[["$","div",null,{"className":"space-y-2","children":[["$","p",null,{"className":"text-xs tracking-[0.16em] text-muted uppercase","children":"Explore"}],["$","$L6",null,{"href":"/blog","className":"block text-ink/80 hover:text-ink","children":"Journal"}],["$","$L6",null,{"href":"/about","className":"block text-ink/80 hover:text-ink","children":"About"}]]}],["$","div",null,{"className":"space-y-2","children":[["$","p",null,{"className":"text-xs tracking-[0.16em] text-muted uppercase","children":"SEO & feeds"}],["$","$L6",null,{"href":"/sitemap.xml","className":"block text-ink/80 hover:text-ink","children":"Sitemap"}],["$","$L6",null,{"href":"/robots.txt","className":"block text-ink/80 hover:text-ink","children":"Robots"}],["$","$L6",null,{"href":"/rss.xml","className":"block text-ink/80 hover:text-ink","children":"RSS"}]]}]]}]]}],["$","div",null,{"className":"border-t border-[var(--line)] px-5 py-4 text-center text-xs text-muted md:px-8","children":["© ",2026," ","AutoThinkers",". Built for independent thinkers."]}]]}]]}]}]]}],{"children":["$L7",{"children":["$L8",{"children":["$L9",{},null,false,null]},null,false,"$a"]},null,false,"$a"]},null,false,null],"$Lb",false]],"m":"$undefined","G":["$c",["$Ld"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"qVWJ1FI8UuHZEyKOCJi_-"}
+f:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+10:"$Sreact.suspense"
+12:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+14:I[97367,["/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+7:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+8:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$1","c",{"children":["$Le",[["$","script","script-0",{"src":"/_next/static/chunks/1_oj3cz2aubcl.js","async":true,"nonce":"$undefined"}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}]
+b:["$","$1","h",{"children":[null,["$","$L12",null,{"children":"$L13"}],["$","div",null,{"hidden":true,"children":["$","$L14",null,{"children":["$","$10",null,{"name":"Next.Metadata","children":"$L15"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+d:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3ln1_7r5pyv_c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+16:I[5500,["/_next/static/chunks/123-nmnpljfqa.js","/_next/static/chunks/031ma2rp9w9h_.js","/_next/static/chunks/1_oj3cz2aubcl.js"],"Image"]
+a:C
+17:T19c4,<p>If AI has made you faster at starting drafts but slower at finishing them, you need a <strong>workflow</strong>, not another tool.</p>
+<p>This tutorial builds a 60-minute AI content system you can reuse for blog posts, newsletters, LinkedIn threads, and tutorials.</p>
+<h2>Outcome</h2>
+<p>By the end you will have:</p>
+<ul>
+<li>A repeatable content pipeline</li>
+<li>Saved prompts for each stage</li>
+<li>A quality gate before publishing</li>
+<li>One finished draft from a real topic</li>
+</ul>
+<h2>The 6-stage pipeline</h2>
+<ol>
+<li>Topic lock</li>
+<li>Angle &#x26; outline</li>
+<li>Research assist</li>
+<li>Draft</li>
+<li>Human edit + fact check</li>
+<li>Package for SEO/publish</li>
+</ol>
+<p>AI helps most in stages 2–4. You stay responsible for 1, 5, and 6.</p>
+<h2>Minute 0–10: Topic lock</h2>
+<p>Write these three lines before opening any AI chat:</p>
+<pre><code class="language-text">Topic:
+Reader:
+Finished artifact:
+</code></pre>
+<p>Example:</p>
+<pre><code class="language-text">Topic: AI image tools for YouTubers
+Reader: creators who film weekly and hate thumbnail busywork
+Finished artifact: a tutorial with a recommended starter tool + 5 prompts
+</code></pre>
+<p>No topic lock = endless generation.</p>
+<h2>Minute 10–20: Angle &#x26; outline</h2>
+<p><strong>Prompt</strong></p>
+<pre><code class="language-text">Role: content strategist.
+Turn this topic lock into 3 angles and one detailed outline.
+Prefer practical tutorial structure.
+Include:
+- promised outcome
+- steps
+- tools needed
+- mistakes section
+Topic lock:
+{{paste}}
+</code></pre>
+<p>Pick one angle. Delete the rest.</p>
+<h2>Minute 20–30: Research assist</h2>
+<p><strong>Prompt</strong></p>
+<pre><code class="language-text">List the key concepts a beginner must understand for this outline.
+For each concept: 1-sentence explanation + what I should verify manually.
+Then list 8 search queries I should run.
+Outline:
+{{paste}}
+</code></pre>
+<p>Do a quick verification pass on anything product-specific (pricing, features, limits change constantly).</p>
+<h2>Minute 30–45: Draft</h2>
+<p><strong>Prompt</strong></p>
+<pre><code class="language-text">Write a complete tutorial draft from this outline.
+Voice: clear, specific, no hype.
+Use short paragraphs and numbered steps.
+Include copy-paste prompts in fenced code blocks.
+Add a checklist near the end.
+Do not invent product claims.
+Outline + notes:
+{{paste}}
+</code></pre>
+<p>Save the draft into your notes app immediately.</p>
+<h2>Minute 45–55: Human edit gate</h2>
+<p>Run this critique prompt, then edit yourself:</p>
+<pre><code class="language-text">Critique this draft for a busy beginner.
+Flag:
+- missing prerequisites
+- vague steps
+- unverifiable claims
+- weak ending
+Return a punch list only.
+Draft:
+{{paste}}
+</code></pre>
+<p>Your non-negotiables:</p>
+<ul>
+<li>Every step is doable</li>
+<li>Every tool claim is checked</li>
+<li>The reader knows what “done” looks like</li>
+</ul>
+<h2>Minute 55–60: Package for publish</h2>
+<p>Generate SEO extras only after the draft is solid:</p>
+<pre><code class="language-text">Based on this final draft, produce:
+1. SEO title options (5)
+2. Meta description (150-160 chars)
+3. URL slug
+4. 5 tags
+5. Social post (2 versions)
+Draft:
+{{paste}}
+</code></pre>
+<h2>Workflow board you can copy</h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Status</th>
+<th>Owner</th>
+<th>AI role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Topic lock</td>
+<td>☐</td>
+<td>You</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Outline</td>
+<td>☐</td>
+<td>You + AI</td>
+<td>Structure</td>
+</tr>
+<tr>
+<td>Research</td>
+<td>☐</td>
+<td>You + AI</td>
+<td>Questions + summaries</td>
+</tr>
+<tr>
+<td>Draft</td>
+<td>☐</td>
+<td>AI then you</td>
+<td>Speed</td>
+</tr>
+<tr>
+<td>Edit / verify</td>
+<td>☐</td>
+<td>You</td>
+<td>Critique support</td>
+</tr>
+<tr>
+<td>Publish package</td>
+<td>☐</td>
+<td>AI then you</td>
+<td>Metadata</td>
+</tr>
+</tbody>
+</table>
+<h2>Example: one post in one hour</h2>
+<p><strong>Topic lock:</strong> “How to use Claude Projects for client work”</p>
+<ol>
+<li>Outline in 8 minutes</li>
+<li>Research assist for Project setup caveats</li>
+<li>Draft tutorial with screenshots placeholders</li>
+<li>Edit for accuracy</li>
+<li>Publish package: title, meta, tags</li>
+</ol>
+<p>That is a real AutoThinkers-style tutorial loop.</p>
+<h2>Guardrails</h2>
+<ul>
+<li>Never paste confidential client files into consumer AI tools unless your plan and policy allow it</li>
+<li>Keep a human as final editor</li>
+<li>Track prompts that produce wins</li>
+<li>Retire workflows that create cleanup debt</li>
+</ul>
+<h2>Closing checklist</h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> Topic lock written</li>
+<li class="task-list-item"><input type="checkbox" disabled> One outline chosen</li>
+<li class="task-list-item"><input type="checkbox" disabled> Draft saved outside the chat</li>
+<li class="task-list-item"><input type="checkbox" disabled> Claims verified</li>
+<li class="task-list-item"><input type="checkbox" disabled> Meta/slug/tags prepared</li>
+<li class="task-list-item"><input type="checkbox" disabled> Prompt versions filed for reuse</li>
+</ul>
+<p>Master this hour-long loop and AI becomes a publishing system — not a distraction engine.</p>
+<h2>Related Articles</h2>
+<p>Keep exploring on AutoThinkers — these 7 guides pair well with this one:</p>
+<ul>
+<li><a href="/blog/prompt-craft-tutorial-real-work/">Prompt Craft Tutorial: Write AI Prompts That Survive Real Work</a></li>
+<li><a href="/blog/practical-ai-toolkit-solo-operators/">The Practical AI Toolkit for Solo Operators (2026)</a></li>
+<li><a href="/blog/ai-for-small-business-playbook/">AI for Small Business: A Practical Playbook That Pays for Itself</a></li>
+<li><a href="/blog/ai-for-students-study-smarter/">AI for Students: How to Study Smarter with ChatGPT, Claude &#x26; Free AI Tools (2026 Guide)</a></li>
+<li><a href="/blog/attention-budget-deep-work/">The Attention Budget: Why Deep Thinkers Treat Focus Like Capital</a></li>
+<li><a href="/blog/personal-systems-that-survive/">Designing Personal Systems That Survive Contact With Real Weeks</a></li>
+<li><a href="/blog/lattice-thinking-idea-networks/">Lattice Thinking: How to Connect Ideas Without Drowning in Notes</a></li>
+<li><a href="/blog/best-ai-image-generators/">Best AI Image Generators in 2026 (Practical Creator Guide)</a></li>
+<li><a href="/blog/best-ai-voice-generators/">Best AI Voice Generators in 2026 (Practical Creator Guide)</a></li>
+<li><a href="/blog/perplexity-vs-chatgpt/">Perplexity vs ChatGPT (2026): Which AI Should You Use?</a></li>
+</ul>
+e:["$","article",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Tutorial: Build an AI Content Workflow in 60 Minutes\",\"description\":\"A complete beginner-friendly workflow to research, draft, edit, and publish content with AI — including prompts, checkpoints, and a one-hour setup plan.\",\"image\":[\"https://autothinkers.com/images/covers/ai-workflows.svg\"],\"datePublished\":\"2026-08-04\",\"dateModified\":\"2026-08-04\",\"author\":{\"@type\":\"Person\",\"name\":\"Maya Chen\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"AutoThinkers\",\"url\":\"https://autothinkers.com\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://autothinkers.com/blog/ai-content-workflow-60-minutes/\"},\"keywords\":\"AI content workflow, AI writing tutorial, ChatGPT content process, AI blogging workflow\",\"articleSection\":\"Tutorials\",\"inLanguage\":\"en\"}"}}],["$","header",null,{"className":"relative min-h-[58vh] overflow-hidden","children":[["$","$L16",null,{"src":"/images/covers/ai-workflows.svg","alt":"Connected workflow panels for an AI content process","fill":true,"priority":true,"className":"object-cover","sizes":"100vw"}],["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-[rgba(7,18,24,0.92)] via-[rgba(11,31,42,0.55)] to-[rgba(11,31,42,0.25)]"}],["$","div",null,{"className":"relative mx-auto flex min-h-[58vh] max-w-4xl flex-col justify-end px-5 pb-12 pt-28 md:px-8","children":[["$","p",null,{"className":"text-xs tracking-[0.18em] text-copper uppercase","children":["$","$L6",null,{"href":"/blog?category=Tutorials","className":"hover:text-fog","children":"Tutorials"}]}],["$","h1",null,{"className":"mt-3 font-display text-4xl leading-tight text-fog md:text-5xl","children":"Tutorial: Build an AI Content Workflow in 60 Minutes"}],["$","p",null,{"className":"mt-4 max-w-2xl text-base text-fog/80 md:text-lg","children":"A complete beginner-friendly workflow to research, draft, edit, and publish content with AI — including prompts, checkpoints, and a one-hour setup plan."}],["$","div",null,{"className":"mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-fog/70","children":[["$","span",null,{"children":"Maya Chen"}],["$","time",null,{"dateTime":"2026-08-04","children":"August 4, 2026"}],["$","span",null,{"children":"5 min read"}]]}]]}]]}],["$","div",null,{"className":"mx-auto max-w-3xl px-5 py-12 md:px-8 md:py-16","children":[["$","div",null,{"className":"prose prose-blog prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$17"}}],"$L18"]}],"$L19"]}]
+18:["$","div",null,{"className":"mt-12 border-t border-[var(--line)] pt-8","children":[["$","p",null,{"className":"text-xs tracking-[0.16em] text-muted uppercase","children":"Tags"}],["$","div",null,{"className":"mt-3 flex flex-wrap gap-3","children":[["$","$L6","tutorials",{"href":"/blog?q=tutorials","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","tutorials"]}],["$","$L6","content",{"href":"/blog?q=content","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","content"]}],["$","$L6","workflows",{"href":"/blog?q=workflows","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","workflows"]}],["$","$L6","ai-writing",{"href":"/blog?q=ai-writing","className":"border border-[var(--line)] px-3 py-1.5 text-sm text-ink/75 hover:border-ink","children":["#","ai-writing"]}]]}],["$","p",null,{"className":"mt-6 text-sm text-muted","children":["Canonical URL:"," ",["$","a",null,{"href":"https://autothinkers.com/blog/ai-content-workflow-60-minutes/","className":"text-sea","children":"https://autothinkers.com/blog/ai-content-workflow-60-minutes/"}]]}]]}]
+1a:T5e5,{"@context":"https://schema.org","@type":"ItemList","name":"Related Articles","itemListElement":[{"@type":"ListItem","position":1,"url":"https://autothinkers.com/blog/ai-for-students-study-smarter/","name":"AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)"},{"@type":"ListItem","position":2,"url":"https://autothinkers.com/blog/prompt-craft-tutorial-real-work/","name":"Prompt Craft Tutorial: Write AI Prompts That Survive Real Work"},{"@type":"ListItem","position":3,"url":"https://autothinkers.com/blog/free-ai-homework-helpers/","name":"Free AI Homework Helpers That Actually Work (2026 Student Guide)"},{"@type":"ListItem","position":4,"url":"https://autothinkers.com/blog/how-small-businesses-can-use-chatgpt/","name":"How Small Businesses Can Use ChatGPT (Practical 2026 Guide)"},{"@type":"ListItem","position":5,"url":"https://autothinkers.com/blog/ai-for-small-business-playbook/","name":"AI for Small Business: A Practical Playbook That Pays for Itself"},{"@type":"ListItem","position":6,"url":"https://autothinkers.com/blog/perplexity-vs-chatgpt/","name":"Perplexity vs ChatGPT (2026): Which AI Should You Use?"},{"@type":"ListItem","position":7,"url":"https://autothinkers.com/blog/personal-systems-that-survive/","name":"Designing Personal Systems That Survive Contact With Real Weeks"},{"@type":"ListItem","position":8,"url":"https://autothinkers.com/blog/ai-time-management-apps/","name":"AI Time Management Apps in 2026 (What Actually Saves Your Week)"}]}19:["$","section",null,{"className":"border-t border-[var(--line)] bg-[rgba(255,255,255,0.3)]","aria-labelledby":"related-articles-heading","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$1a"}}],["$","div",null,{"className":"mx-auto max-w-6xl px-5 py-14 md:px-8","children":[["$","p",null,{"className":"text-xs tracking-[0.18em] text-copper uppercase","children":"Keep exploring"}],["$","h2",null,{"id":"related-articles-heading","className":"mt-2 font-display text-3xl text-ink md:text-4xl","children":"Related Articles"}],["$","p",null,{"className":"mt-3 max-w-2xl text-muted","children":["Continue with ",8," closely related AutoThinkers guides — more tutorials to deepen your AI workflow."]}],["$","div",null,{"className":"mt-8","children":[["$","article","ai-content-workflow-60-minutes-ai-for-students-study-smarter",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0s"},"children":["$","$L6",null,{"href":"/blog/ai-for-students-study-smarter","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/ai-for-students.jpg","alt":"Student studying with AI tools on a laptop in a bright study space","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Tutorials"}],["$","time",null,{"dateTime":"2026-08-08","children":"Aug 8, 2026"}],["$","p",null,{"children":"7 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"AI for Students: How to Study Smarter with ChatGPT, Claude & Free AI Tools (2026 Guide)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Learn how to use AI for students the right way — study plans, note summaries, essay outlines, exam prep prompts, and academic integrity tips in one practical 2026 guide."}],"$L1b"]}]]}]}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22"]}]]}]]}]
+1b:["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","ai-for-students",{"children":["#","ai-for-students"]}],["$","span","chatgpt-for-students",{"children":["#","chatgpt-for-students"]}],["$","span","study-tools",{"children":["#","study-tools"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]
+1c:["$","article","ai-content-workflow-60-minutes-prompt-craft-tutorial-real-work",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.06s"},"children":["$","$L6",null,{"href":"/blog/prompt-craft-tutorial-real-work","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/prompt-craft.svg","alt":"Abstract lines suggesting structured prompt flows","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Prompt Craft"}],["$","time",null,{"dateTime":"2026-08-05","children":"Aug 5, 2026"}],["$","p",null,{"children":"4 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Prompt Craft Tutorial: Write AI Prompts That Survive Real Work"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"A step-by-step prompt engineering tutorial with copy-paste templates for drafting, research, critique, and repetitive operations."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","prompts",{"children":["#","prompts"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","claude",{"children":["#","claude"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]]}]]}]}]
+1d:["$","article","ai-content-workflow-60-minutes-free-ai-homework-helpers",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.12s"},"children":["$","$L6",null,{"href":"/blog/free-ai-homework-helpers","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/free-ai-homework-helpers.jpg","alt":"Student studying with free AI homework helper tools on a laptop","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Tutorials"}],["$","time",null,{"dateTime":"2026-08-13","children":"Aug 13, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Free AI Homework Helpers That Actually Work (2026 Student Guide)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Free AI homework helpers that actually help you learn — ChatGPT, Claude, Gemini, Photomath-style tools, and study workflows — plus academic integrity rules."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","ai-for-students",{"children":["#","ai-for-students"]}],["$","span","homework-help",{"children":["#","homework-help"]}],["$","span","study-tools",{"children":["#","study-tools"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]]}]]}]}]
+1e:["$","article","ai-content-workflow-60-minutes-how-small-businesses-can-use-chatgpt",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.18s"},"children":["$","$L6",null,{"href":"/blog/how-small-businesses-can-use-chatgpt","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/ai-for-small-business.jpg","alt":"AI assisting a small business owner at a modern workspace","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"AI Tools"}],["$","time",null,{"dateTime":"2026-08-09","children":"Aug 9, 2026"}],["$","p",null,{"children":"5 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"How Small Businesses Can Use ChatGPT (Practical 2026 Guide)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"How small businesses can use ChatGPT for customer replies, marketing drafts, SOPs, and admin work — with copy-paste prompts and a safe weekly workflow."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","small-business",{"children":["#","small-business"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","ai-for-business",{"children":["#","ai-for-business"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]]}]]}]}]
+1f:["$","article","ai-content-workflow-60-minutes-ai-for-small-business-playbook",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.24s"},"children":["$","$L6",null,{"href":"/blog/ai-for-small-business-playbook","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/ai-for-small-business.jpg","alt":"AI assisting a small business owner at a modern workspace","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"AI Tools"}],["$","time",null,{"dateTime":"2026-08-07","children":"Aug 7, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"AI for Small Business: A Practical Playbook That Pays for Itself"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"A clear guide to using AI in a small business — where to start, which tasks to automate first, copy-paste prompts, and a 30-day rollout plan."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","small-business",{"children":["#","small-business"]}],["$","span","ai-tools",{"children":["#","ai-tools"]}],["$","span","automation",{"children":["#","automation"]}],["$","span","tutorials",{"children":["#","tutorials"]}]]}]]}]]}]}]
+20:["$","article","ai-content-workflow-60-minutes-perplexity-vs-chatgpt",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.3s"},"children":["$","$L6",null,{"href":"/blog/perplexity-vs-chatgpt","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/perplexity-vs-chatgpt.jpg","alt":"Comparison visual for Perplexity and ChatGPT AI assistants","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Comparisons"}],["$","time",null,{"dateTime":"2026-08-12","children":"Aug 12, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Perplexity vs ChatGPT (2026): Which AI Should You Use?"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Perplexity vs ChatGPT compared for research, citations, writing, and everyday work — when to search with sources, when to draft, and which to pick first."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","comparisons",{"children":["#","comparisons"]}],["$","span","chatgpt",{"children":["#","chatgpt"]}],["$","span","perplexity",{"children":["#","perplexity"]}],["$","span","research",{"children":["#","research"]}]]}]]}]]}]}]
+21:["$","article","ai-content-workflow-60-minutes-personal-systems-that-survive",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.36s"},"children":["$","$L6",null,{"href":"/blog/personal-systems-that-survive","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/systems.svg","alt":"Connected system nodes representing resilient personal workflows","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Systems Thinking"}],["$","time",null,{"dateTime":"2026-07-08","children":"Jul 8, 2026"}],["$","p",null,{"children":"5 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"Designing Personal Systems That Survive Contact With Real Weeks"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"Most personal operating systems die by Wednesday. Here is how to design workflows that bend under load instead of shattering."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","systems thinking",{"children":["#","systems thinking"]}],["$","span","workflows",{"children":["#","workflows"]}],["$","span","automation",{"children":["#","automation"]}],["$","span","habits",{"children":["#","habits"]}]]}]]}]]}]}]
+22:["$","article","ai-content-workflow-60-minutes-ai-time-management-apps",{"className":"group border-t border-[var(--line)] py-8 first:border-t-0 first:pt-0","style":{"animationDelay":"0.36s"},"children":["$","$L6",null,{"href":"/blog/ai-time-management-apps","className":"grid gap-5 md:grid-cols-[220px_1fr] md:items-start","children":[["$","div",null,{"className":"relative aspect-[16/10] overflow-hidden bg-ink-soft","children":["$","$L16",null,{"src":"/images/covers/ai-time-management-apps.jpg","alt":"Workspace with calendar, clock, and AI planning tools for time management","fill":true,"className":"object-cover transition duration-700 group-hover:scale-[1.03]","sizes":"(max-width: 768px) 100vw, 220px"}]}],["$","div",null,{"children":[["$","div",null,{"className":"flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted","children":[["$","p",null,{"className":"tracking-[0.14em] text-copper uppercase","children":"Workflows"}],["$","time",null,{"dateTime":"2026-08-09","children":"Aug 9, 2026"}],["$","p",null,{"children":"6 min read"}]]}],["$","h3",null,{"className":"mt-3 font-display text-2xl leading-snug text-ink transition-colors group-hover:text-sea md:text-[1.75rem]","children":"AI Time Management Apps in 2026 (What Actually Saves Your Week)"}],["$","p",null,{"className":"mt-3 max-w-2xl text-[0.98rem] leading-relaxed text-muted","children":"The best AI time management apps for 2026 — planning, focus, meetings, and task triage — plus a simple system you can run without tool overload."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs tracking-wide text-ink/55","children":[["$","span","productivity",{"children":["#","productivity"]}],["$","span","time-management",{"children":["#","time-management"]}],["$","span","ai-tools",{"children":["#","ai-tools"]}],["$","span","workflows",{"children":["#","workflows"]}]]}]]}]]}]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+23:I[27201,["/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+11:null
+15:[["$","title","0",{"children":"Tutorial: Build an AI Content Workflow in 60 Minutes · AutoThinkers"}],["$","meta","1",{"name":"description","content":"A complete beginner-friendly workflow to research, draft, edit, and publish content with AI — including prompts, checkpoints, and a one-hour setup plan."}],["$","meta","2",{"name":"author","content":"Maya Chen"}],["$","meta","3",{"name":"keywords","content":"AI content workflow,AI writing tutorial,ChatGPT content process,AI blogging workflow"}],["$","meta","4",{"name":"creator","content":"AutoThinkers Editorial"}],["$","meta","5",{"name":"robots","content":"index, follow"}],["$","meta","6",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","link","7",{"rel":"canonical","href":"https://autothinkers.com/blog/ai-content-workflow-60-minutes/"}],["$","meta","8",{"property":"og:title","content":"Tutorial: Build an AI Content Workflow in 60 Minutes · AutoThinkers"}],["$","meta","9",{"property":"og:description","content":"A complete beginner-friendly workflow to research, draft, edit, and publish content with AI — including prompts, checkpoints, and a one-hour setup plan."}],["$","meta","10",{"property":"og:url","content":"https://autothinkers.com/blog/ai-content-workflow-60-minutes/"}],["$","meta","11",{"property":"og:site_name","content":"AutoThinkers"}],["$","meta","12",{"property":"og:locale","content":"en_US"}],["$","meta","13",{"property":"og:image","content":"https://autothinkers.com/images/covers/ai-workflows.svg"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"Tutorial: Build an AI Content Workflow in 60 Minutes"}],["$","meta","17",{"property":"og:type","content":"article"}],["$","meta","18",{"property":"article:published_time","content":"2026-08-04"}],["$","meta","19",{"property":"article:modified_time","content":"2026-08-04"}],["$","meta","20",{"property":"article:author","content":"Maya Chen"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:creator","content":"@autothinkers"}],["$","meta","23",{"name":"twitter:title","content":"Tutorial: Build an AI Content Workflow in 60 Minutes · AutoThinkers"}],["$","meta","24",{"name":"twitter:description","content":"A complete beginner-friendly workflow to research, draft, edit, and publish content with AI — including prompts, checkpoints, and a one-hour setup plan."}],["$","meta","25",{"name":"twitter:image","content":"https://autothinkers.com/images/covers/ai-workflows.svg"}],["$","link","26",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L23","27",{}]]

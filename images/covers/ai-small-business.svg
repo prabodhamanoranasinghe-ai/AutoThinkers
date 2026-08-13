@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="AI for small business cover">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071820"/>
+      <stop offset="45%" stop-color="#123744"/>
+      <stop offset="100%" stop-color="#1F5A4E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#C4784A" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#C4784A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <!-- storefront -->
+  <g fill="none" stroke="#E8EEF2" stroke-opacity="0.3" stroke-width="2.5">
+    <path d="M220 640 V340 H620 V640"/>
+    <path d="M200 340 L420 220 L640 340"/>
+    <rect x="280" y="400" width="120" height="160" rx="6"/>
+    <rect x="460" y="400" width="100" height="100" rx="6"/>
+    <path d="M340 560 V640"/>
+  </g>
+
+  <!-- AI nodes -->
+  <g fill="none" stroke="#E8EEF2" stroke-opacity="0.28" stroke-width="2">
+    <circle cx="980" cy="300" r="48"/>
+    <circle cx="1180" cy="260" r="36"/>
+    <circle cx="1120" cy="430" r="56"/>
+    <circle cx="1320" cy="390" r="40"/>
+    <path d="M1024 285 L1148 272 M1015 335 L1080 395 M1165 295 L1095 390 M1170 455 L1285 405"/>
+  </g>
+  <circle cx="980" cy="300" r="10" fill="#C4784A" opacity="0.85"/>
+  <circle cx="1120" cy="430" r="10" fill="#C4784A" opacity="0.85"/>
+
+  <text x="220" y="160" fill="#E8EEF2" font-family="Georgia, serif" font-size="46" opacity="0.92">AI for Small Business</text>
+  <rect x="220" y="720" width="280" height="8" rx="4" fill="#C4784A" opacity="0.8"/>
+</svg>
