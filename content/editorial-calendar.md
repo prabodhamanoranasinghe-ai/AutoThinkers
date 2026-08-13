@@ -59,7 +59,7 @@ Status: `todo` · `draft` · `published`
 
 | # | Title | Category | Status |
 | --- | --- | --- | --- |
-| 1 | Free AI Homework Helpers That Actually Work | Tutorials | todo |
+| 1 | Free AI Homework Helpers That Actually Work | Tutorials | published (2026-08-13) — `free-ai-homework-helpers` |
 | 2 | ChatGPT vs Gemini | Comparisons | todo |
 | 3 | AI Tools That Save Hours Every Week | Workflows | todo |
 
