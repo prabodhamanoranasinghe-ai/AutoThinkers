@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import { siteConfig } from "./site";
 import type { PostMeta } from "./posts";
 
+function withTrailingSlash(path: string): string {
+  if (!path || path === "/") return "/";
+  if (path.includes("?") || path.includes("#") || path.includes(".")) {
+    return path;
+  }
+  return path.endsWith("/") ? path : `${path}/`;
+}
+
 export function absoluteUrl(path = "/"): string {
   const configured = siteConfig.url.replace(/\/$/, "");
   const basePath = siteConfig.basePath.replace(/\/$/, "");
@@ -11,10 +19,20 @@ export function absoluteUrl(path = "/"): string {
       ? configured
       : `${configured}${basePath}`;
 
-  if (!path || path === "/") return root;
+  // GitHub Pages is served with trailingSlash URLs — keep canonicals consistent.
+  const useTrailingSlash =
+    process.env.GITHUB_PAGES === "true" ||
+    process.env.NEXT_PUBLIC_STATIC_EXPORT === "true";
+
+  if (!path || path === "/") {
+    return useTrailingSlash ? `${root}/` : root;
+  }
 
   const normalized = path.startsWith("/") ? path : `/${path}`;
-  return `${root}${normalized}`;
+  const finalPath = useTrailingSlash
+    ? withTrailingSlash(normalized)
+    : normalized;
+  return `${root}${finalPath}`;
 }
 
 export function buildPageMetadata({
@@ -38,7 +56,9 @@ export function buildPageMetadata({
   modifiedTime?: string;
   authors?: string[];
 }): Metadata {
-  const pageTitle = title
+  // Keep `title` bare so the root layout template (`%s · AutoThinkers`)
+  // does not produce "Title · AutoThinkers · AutoThinkers".
+  const brandedTitle = title
     ? `${title} · ${siteConfig.name}`
     : `${siteConfig.name} · ${siteConfig.tagline}`;
   const pageDescription = description || siteConfig.description;
@@ -50,7 +70,7 @@ export function buildPageMetadata({
     : absoluteUrl("/opengraph-image");
 
   return {
-    title: pageTitle,
+    title: title || brandedTitle,
     description: pageDescription,
     keywords: keywords?.length ? keywords : [...siteConfig.categories],
     authors: (authors || [siteConfig.author.name]).map((name) => ({ name })),
@@ -60,7 +80,7 @@ export function buildPageMetadata({
       canonical: url,
     },
     openGraph: {
-      title: pageTitle,
+      title: brandedTitle,
       description: pageDescription,
       url,
       siteName: siteConfig.name,
@@ -84,7 +104,7 @@ export function buildPageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: pageTitle,
+      title: brandedTitle,
       description: pageDescription,
       images: [ogImage],
       creator: siteConfig.social.twitter,

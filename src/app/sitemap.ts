@@ -20,7 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: absoluteUrl(withSlash("/")),
+      // Prefer the trailing-slash homepage URL that GitHub Pages serves.
+      url: absoluteUrl("/"),
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,

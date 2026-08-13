@@ -70,3 +70,16 @@ Add these authorized domains in Firebase Authentication / App settings if prompt
 - `autothinkers.com`
 - `www.autothinkers.com`
 - `prabodhamanoranasinghe-ai.github.io`
+
+### Get discovered by Google (required for organic visitors)
+
+Publishing alone does not create traffic. Do this once:
+
+1. Open [Google Search Console](https://search.google.com/search-console)
+2. Add property `https://autothinkers.com`
+3. Verify ownership (DNS TXT at Namecheap, or HTML tag — set `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` in the deploy workflow if you use the meta tag)
+4. Submit sitemap: `https://autothinkers.com/sitemap.xml`
+5. Use **URL Inspection → Request indexing** on your best 3–5 posts
+6. Share posts on LinkedIn / X / Reddit / Facebook groups (Google needs backlinks + time)
+
+Expect first organic clicks after indexing — often days to a few weeks for a new domain.
