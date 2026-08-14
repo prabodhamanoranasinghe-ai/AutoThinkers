@@ -86,6 +86,7 @@ Status: `todo` · `draft` · `published`
 | 1 | AI for Exam Preparation | Tutorials | todo |
 | 2 | Perplexity vs ChatGPT | Comparisons | published (2026-08-12) — `perplexity-vs-chatgpt` |
 | 3 | AI Customer Service Tools Compared | Comparisons | todo |
+| 4 | 100 Best AI Tools in 2026 | AI Tools | published — `100-best-ai-tools` |
 
 ### Day 7 — 2026-08-15
 
