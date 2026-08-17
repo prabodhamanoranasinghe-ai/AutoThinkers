@@ -75,26 +75,35 @@ Add these authorized domains in Firebase Authentication / App settings if prompt
 
 ## Deploy with Firebase Hosting
 
-The site is a static export (`out/`). Hosting config is in `firebase.json` (project `autothinkers-75ab4`).
+The site is a static export (`out/`). Config: `firebase.json` + `.firebaserc` (project **`autothinkers-75ab4`**).
 
-### One-time setup
+No CI token required. Use one of these:
 
-1. Firebase Console → project **autothinkers-75ab4** → **Hosting** → Get started  
-2. On your computer:
+### A) Deploy from your computer (recommended)
 
 ```bash
 npm i -g firebase-tools
 firebase login
-firebase login:ci
+npm run deploy:firebase
 ```
 
-3. Copy the CI token into GitHub → **Settings → Secrets and variables → Actions**  
-   → New secret name: `FIREBASE_TOKEN`  
-4. Merge the Firebase Hosting workflow (`.github/workflows/deploy-firebase-hosting.yml`)
+Or step by step:
 
-Push to `main` will build `out/` and run `firebase deploy --only hosting`.
+```bash
+firebase login
+npm run build:pages
+firebase deploy --only hosting --project autothinkers-75ab4
+```
 
-Default Firebase URLs after deploy:
+### B) Auto-deploy via Firebase Console ↔ GitHub
+
+1. Firebase Console → **Hosting** → connect **GitHub**
+2. Select repo `AutoThinkers`, branch `main`
+3. Build command: `npm run build:pages`
+4. Publish directory: `out`
+5. Firebase creates its own GitHub Action — merge that workflow when prompted
+
+Default URLs after deploy:
 
 - `https://autothinkers-75ab4.web.app`
 - `https://autothinkers-75ab4.firebaseapp.com`
@@ -105,14 +114,7 @@ Default Firebase URLs after deploy:
 2. Add the DNS records Firebase shows (replace the old GitHub Pages A/CNAME records at Namecheap)  
 3. Wait for SSL to become Active  
 
-### Local deploy (without GitHub Actions)
-
-```bash
-npm run build:pages
-firebase deploy --only hosting --project autothinkers-75ab4
-```
-
-**Note:** The web `firebaseConfig` (apiKey / appId / measurementId) is only for Analytics in the browser. Deploying Hosting requires `firebase login` or the `FIREBASE_TOKEN` secret — not the web config alone.
+**Note:** The web `firebaseConfig` (apiKey / appId / measurementId) is only for Analytics. Hosting deploy uses your Google login (`firebase login`) or the Console↔GitHub connection.
 
 ### Get discovered by Google (required for organic visitors)
 
