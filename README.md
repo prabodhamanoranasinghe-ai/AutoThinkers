@@ -61,7 +61,7 @@ Every article should help readers discover the rest of the archive:
 
 ## Traffic / analytics
 
-Firebase Analytics is installed on the site (`measurementId: G-QLRDQZ9SDF`).
+Firebase Analytics is installed on the site (`measurementId: G-3RXNQ16NKV`, project `autothinkers-75ab4`).
 
 View traffic in Firebase Console → **Analytics** → **Dashboard**  
 (or Google Analytics property linked to that Measurement ID).
@@ -69,7 +69,52 @@ View traffic in Firebase Console → **Analytics** → **Dashboard**
 Add these authorized domains in Firebase Authentication / App settings if prompted:
 - `autothinkers.com`
 - `www.autothinkers.com`
+- `autothinkers-75ab4.web.app`
+- `autothinkers-75ab4.firebaseapp.com`
 - `prabodhamanoranasinghe-ai.github.io`
+
+## Deploy with Firebase Hosting
+
+The site is a static export (`out/`). Config: `firebase.json` + `.firebaserc` (project **`autothinkers-75ab4`**).
+
+No CI token required. Use one of these:
+
+### A) Deploy from your computer (recommended)
+
+```bash
+npm i -g firebase-tools
+firebase login
+npm run deploy:firebase
+```
+
+Or step by step:
+
+```bash
+firebase login
+npm run build:pages
+firebase deploy --only hosting --project autothinkers-75ab4
+```
+
+### B) Auto-deploy via Firebase Console ↔ GitHub
+
+1. Firebase Console → **Hosting** → connect **GitHub**
+2. Select repo `AutoThinkers`, branch `main`
+3. Build command: `npm run build:pages`
+4. Publish directory: `out`
+5. Firebase creates its own GitHub Action — merge that workflow when prompted
+
+Default URLs after deploy:
+
+- `https://autothinkers-75ab4.web.app`
+- `https://autothinkers-75ab4.firebaseapp.com`
+
+### Custom domain (`autothinkers.com`)
+
+1. Firebase Hosting → **Add custom domain** → `autothinkers.com` (and `www` if you want)  
+2. Add the DNS records Firebase shows (replace the old GitHub Pages A/CNAME records at Namecheap)  
+3. Wait for SSL to become Active  
+
+**Note:** The web `firebaseConfig` (apiKey / appId / measurementId) is only for Analytics. Hosting deploy uses your Google login (`firebase login`) or the Console↔GitHub connection.
 
 ### Get discovered by Google (required for organic visitors)
 

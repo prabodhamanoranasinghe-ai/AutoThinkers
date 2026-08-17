@@ -8,7 +8,8 @@
     "build:pages": "bash scripts/build-github-pages.sh",
     "start": "next start",
     "lint": "eslint",
-    "generate:rss": "node scripts/generate-rss.mjs"
+    "generate:rss": "node scripts/generate-rss.mjs",
+    "deploy:firebase": "npm run build:pages && npx --yes firebase-tools@13 deploy --only hosting --project autothinkers-75ab4 --non-interactive"
   },
   "dependencies": {
     "date-fns": "^4.4.0",
