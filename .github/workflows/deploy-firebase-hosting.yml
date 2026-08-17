@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to Firebase Hosting
 
 on:
   push:
@@ -6,14 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
-  # Keep separate from GitHub's built-in "pages" deploy group so we do not
-  # cancel in-flight pages-build-deployment runs.
-  group: deploy-gh-pages-branch
+  group: deploy-firebase-hosting
   cancel-in-progress: false
 
 jobs:
@@ -36,7 +32,6 @@ jobs:
         env:
           GITHUB_PAGES: "true"
           NEXT_PUBLIC_STATIC_EXPORT: "true"
-          # Custom domain serves from site root (no /AutoThinkers prefix)
           NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_SITE_URL: https://autothinkers.com
           NEXT_PUBLIC_FIREBASE_API_KEY: AIzaSyD2Dq-gZilLAsq65TCsRkD9MuF6wS8nYy0
@@ -48,12 +43,10 @@ jobs:
           NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID: G-3RXNQ16NKV
         run: bash scripts/build-github-pages.sh
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-          publish_branch: gh-pages
-          force_orphan: true
-          enable_jekyll: false
-          cname: autothinkers.com
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
+
+      - name: Deploy to Firebase Hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy --only hosting --project autothinkers-75ab4 --non-interactive

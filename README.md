@@ -61,7 +61,7 @@ Every article should help readers discover the rest of the archive:
 
 ## Traffic / analytics
 
-Firebase Analytics is installed on the site (`measurementId: G-QLRDQZ9SDF`).
+Firebase Analytics is installed on the site (`measurementId: G-3RXNQ16NKV`, project `autothinkers-75ab4`).
 
 View traffic in Firebase Console → **Analytics** → **Dashboard**  
 (or Google Analytics property linked to that Measurement ID).
@@ -69,7 +69,50 @@ View traffic in Firebase Console → **Analytics** → **Dashboard**
 Add these authorized domains in Firebase Authentication / App settings if prompted:
 - `autothinkers.com`
 - `www.autothinkers.com`
+- `autothinkers-75ab4.web.app`
+- `autothinkers-75ab4.firebaseapp.com`
 - `prabodhamanoranasinghe-ai.github.io`
+
+## Deploy with Firebase Hosting
+
+The site is a static export (`out/`). Hosting config is in `firebase.json` (project `autothinkers-75ab4`).
+
+### One-time setup
+
+1. Firebase Console → project **autothinkers-75ab4** → **Hosting** → Get started  
+2. On your computer:
+
+```bash
+npm i -g firebase-tools
+firebase login
+firebase login:ci
+```
+
+3. Copy the CI token into GitHub → **Settings → Secrets and variables → Actions**  
+   → New secret name: `FIREBASE_TOKEN`  
+4. Merge the Firebase Hosting workflow (`.github/workflows/deploy-firebase-hosting.yml`)
+
+Push to `main` will build `out/` and run `firebase deploy --only hosting`.
+
+Default Firebase URLs after deploy:
+
+- `https://autothinkers-75ab4.web.app`
+- `https://autothinkers-75ab4.firebaseapp.com`
+
+### Custom domain (`autothinkers.com`)
+
+1. Firebase Hosting → **Add custom domain** → `autothinkers.com` (and `www` if you want)  
+2. Add the DNS records Firebase shows (replace the old GitHub Pages A/CNAME records at Namecheap)  
+3. Wait for SSL to become Active  
+
+### Local deploy (without GitHub Actions)
+
+```bash
+npm run build:pages
+firebase deploy --only hosting --project autothinkers-75ab4
+```
+
+**Note:** The web `firebaseConfig` (apiKey / appId / measurementId) is only for Analytics in the browser. Deploying Hosting requires `firebase login` or the `FIREBASE_TOKEN` secret — not the web config alone.
 
 ### Get discovered by Google (required for organic visitors)
 
